@@ -17,14 +17,39 @@ export default new Router({
           component: () => import('./views/Dashboard/Dashboard.vue'),
         },
         {
-          path: '/icons',
-          name: 'icons',
-          component: () => import('./views/Icons.vue'),
-        },
-        {
           path: '/tables',
           name: 'tables',
           component: () => import('./views/Tables/Tables.vue'),
+        },
+        {
+          path: '/application',
+          name: 'Aplicación',
+          component: () => import('./views/Application/Application.vue'),
+        },
+        {
+          path: '/design',
+          name: 'Diseño de la Aplicación',
+          component: () => import('./views/Design/Design.vue'),
+        },
+        {
+          path: '/accesibility',
+          name: 'Accesibilidad',
+          component: () => import('./views/Accesibility/Accesibility.vue'),
+        },
+        {
+          path: '/analytics',
+          name: 'Analitica',
+          component: () => import('./views/Analytics/Analytics.vue'),
+        },
+        {
+          path: '/debugging',
+          name: 'Ejecucíon',
+          component: () => import('./views/Debugging/Debugging.vue'),
+        },
+        {
+          path: '/eventual-connectivity',
+          name: 'Conectividad Eventual',
+          component: () => import('./views/Eventual/Eventual.vue'),
         },
       ],
     },

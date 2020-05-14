@@ -15,16 +15,51 @@
         />
         <sidebar-item
           :link="{
-            name: 'Tables',
+            name: 'Aplicación',
             icon: 'ni ni-bullet-list-67 text-red',
-            path: '/tables'
+            path: '/application'
           }"
         />
         <sidebar-item
           :link="{
-            name: 'Icons',
-            icon: 'ni ni-planet text-blue',
-            path: '/icons'
+            name: 'Diseño',
+            icon: 'fas fa-drafting-compass text-blue',
+            path: '/design'
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Accesibilidad',
+            icon: 'fas fa-universal-access text-default',
+            path: '/accesibility'
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Analitica',
+            icon: 'fas fa-chart-line text-green',
+            path: '/analytics'
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Ejecución',
+            icon: 'fas fa-bug text-primary',
+            path: '/debugging'
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Fragmentación',
+            icon: 'fab fa-buffer text-blue',
+            path: '/fragmentation'
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Conectividad Eventual',
+            icon: 'fas fa-chart-line text-red',
+            path: '/eventual-connectivity'
           }"
         />
       </template>

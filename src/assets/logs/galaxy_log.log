@@ -1,0 +1,189 @@
+Starting app on Galaxy Tab S4
+05-10 23:37:27.043 E/Zygote  ( 8543): isWhitelistProcess - Process is Whitelisted
+05-10 23:37:27.050 E/libpersona( 8543): scanKnoxPersonas
+05-10 23:37:27.050 E/libpersona( 8543): Couldn't open the File - /data/system/users/0/personalist.xml - No such file or directory
+05-10 23:37:27.053 W/SELinux ( 8543): SELinux selinux_android_compute_policy_index : Policy Index[2],  Con:u:r:zygote:s0 RAM:SEPF_SM-T830_8.1.0_0003, [-1 -1 -1 -1 0 1]
+05-10 23:37:27.054 I/SELinux ( 8543): SELinux: seapp_context_lookup: seinfo=untrusted, level=s0:c512,c768, pkgname=org.torproject.android
+05-10 23:37:27.062 W/zygote  ( 8543): Using default instruction set features for ARM CPU variant (cortex-a9) using conservative defaults
+05-10 23:37:27.101 D/TimaKeyStoreProvider( 8543): TimaKeyStore is not enabled: cannot add TimaSignature Service and generateKeyPair Service
+05-10 23:37:27.101 D/ActivityThread( 8543): Added TimaKeyStore provider
+05-10 23:37:27.417 D/NetworkSecurityConfig( 8543): No Network Security Config specified, using platform default
+05-10 23:37:27.419 I/System.out( 8543): (HTTPLog)-Static: isSBSettingEnabled false
+05-10 23:37:27.419 I/System.out( 8543): (HTTPLog)-Static: isSBSettingEnabled false
+05-10 23:37:27.506 I/zygote  ( 8543): Rejecting re-init on previously-failed class java.lang.Class<android.support.v4.view.ViewCompat$OnUnhandledKeyEventListenerWrapper>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+05-10 23:37:27.507 I/zygote  ( 8543):   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+05-10 23:37:27.506 I/zygote  ( 8543): Rejecting re-init on previously-failed class java.lang.Class<android.support.v4.view.ViewCompat$OnUnhandledKeyEventListenerWrapper>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+05-10 23:37:27.507 I/zygote  ( 8543):   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void org.torproject.android.OrbotMainActivity.doLayout() (OrbotMainActivity.java:288)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void org.torproject.android.OrbotMainActivity.onCreate(android.os.Bundle) (OrbotMainActivity.java:179)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.Activity.performCreate(android.os.Bundle, android.os.PersistableBundle) (Activity.java:7258)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7249)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1221)
+05-10 23:37:27.507 I/zygote  ( 8543):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2927)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3059)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1724)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1724)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.os.Looper.loop() (Looper.java:164)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7002)
+05-10 23:37:27.507 I/zygote  ( 8543):   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:441)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1408)
+05-10 23:37:27.507 I/zygote  ( 8543): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/org.torproject.android-XEv0bdvyHE865mmPLv4OKQ==/base.apk"],nativeLibraryDirectories=[/data/app/org.torproject.android-XEv0bdvyHE865mmPLv4OKQ==/lib/arm, /data/app/org.torproject.android-XEv0bdvyHE865mmPLv4OKQ==/base.apk!/lib/armeabi-v7a, /system/lib, /vendor/lib]]
+05-10 23:37:27.507 I/zygote  ( 8543):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:125)
+05-10 23:37:27.507 I/zygote  ( 8543):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+05-10 23:37:27.507 I/zygote  ( 8543):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+05-10 23:37:27.507 I/zygote  ( 8543):   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void org.torproject.android.OrbotMainActivity.doLayout() (OrbotMainActivity.java:288)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void org.torproject.android.OrbotMainActivity.onCreate(android.os.Bundle) (OrbotMainActivity.java:179)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.Activity.performCreate(android.os.Bundle, android.os.PersistableBundle) (Activity.java:7258)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7249)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1221)
+05-10 23:37:27.507 I/zygote  ( 8543):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2927)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3059)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1724)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+05-10 23:37:27.507 I/zygote  ( 8543):   at
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7002)
+05-10 23:37:27.507 I/zygote  ( 8543):   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:441)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1408)
+05-10 23:37:27.507 I/zygote  ( 8543): 
+05-10 23:37:27.507 I/zygote  ( 8543): Rejecting re-init on previously-failed class java.lang.Class<android.support.v4.view.ViewCompat$OnUnhandledKeyEventListenerWrapper>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+05-10 23:37:27.507 I/zygote  ( 8543):   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+05-10 23:37:27.507 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void org.torproject.android.OrbotMainActivity.doLayout() (OrbotMainActivity.java:288)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void org.torproject.android.OrbotMainActivity.onCreate(android.os.Bundle) (OrbotMainActivity.java:179)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.Activity.performCreate(android.os.Bundle, android.os.PersistableBundle) (Activity.java:7258)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7249)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1221)
+05-10 23:37:27.508 I/zygote  ( 8543):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2927)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3059)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1724)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.os.Looper.loop() (Looper.java:164)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7002)
+05-10 23:37:27.508 I/zygote  ( 8543):   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:441)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1408)
+05-10 23:37:27.508 I/zygote  ( 8543): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/org.torproject.android-XEv0bdvyHE865mmPLv4OKQ==/base.apk"],nativeLibraryDirectories=[/data/app/org.torproject.android-XEv0bdvyHE865mmPLv4OKQ==/lib/arm, /data/app/org.torproject.android-XEv0bdvyHE865mmPLv4OKQ==/base.apk!/lib/armeabi-v7a, /system/lib, /vendor/lib]]
+05-10 23:37:27.508 I/zygote  ( 8543):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:125)
+05-10 23:37:27.508 I/zygote  ( 8543):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+05-10 23:37:27.508 I/zygote  ( 8543):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+05-10 23:37:27.508 I/zygote  ( 8543):   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void org.torproject.android.OrbotMainActivity.doLayout() (OrbotMainActivity.java:288)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void org.torproject.android.OrbotMainActivity.onCreate(android.os.Bundle) (OrbotMainActivity.java:179)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.Activity.performCreate(android.os.Bundle, android.os.PersistableBundle) (Activity.java:7258)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7249)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1221)
+05-10 23:37:27.508 I/zygote  ( 8543):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2927)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3059)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1724)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.os.Looper.loop() (Looper.java:164)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7002)
+05-10 23:37:27.508 I/zygote  ( 8543):   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:441)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1408)
+05-10 23:37:27.508 I/zygote  ( 8543): 
+05-10 23:37:27.508 I/zygote  ( 8543): Rejecting re-init on previously-failed class java.lang.Class<android.support.v4.view.ViewCompat$OnUnhandledKeyEventListenerWrapper>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+05-10 23:37:27.508 I/zygote  ( 8543):   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void org.torproject.android.OrbotMainActivity.doLayout() (OrbotMainActivity.java:288)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void org.torproject.android.OrbotMainActivity.onCreate(android.os.Bundle) (OrbotMainActivity.java:179)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.Activity.performCreate(android.os.Bundle, android.os.PersistableBundle) (Activity.java:7258)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7249)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1221)
+05-10 23:37:27.508 I/zygote  ( 8543):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2927)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3059)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1724)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.os.Looper.loop() (Looper.java:164)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7002)
+05-10 23:37:27.508 I/zygote  ( 8543):   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:441)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1408)
+05-10 23:37:27.508 I/zygote  ( 8543): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/org.torproject.android-XEv0bdvyHE865mmPLv4OKQ==/base.apk"],nativeLibraryDirectories=[/data/app/org.torproject.android-XEv0bdvyHE865mmPLv4OKQ==/lib/arm, /data/app/org.torproject.android-XEv0bdvyHE865mmPLv4OKQ==/base.apk!/lib/armeabi-v7a, /system/lib, /vendor/lib]]
+05-10 23:37:27.508 I/zygote  ( 8543):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:125)
+05-10 23:37:27.508 I/zygote  ( 8543):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+05-10 23:37:27.508 I/zygote  ( 8543):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+05-10 23:37:27.508 I/zygote  ( 8543):   at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+05-10 23:37:27.509 I/zygote  ( 8543):   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void org.torproject.android.OrbotMainActivity.doLayout() (OrbotMainActivity.java:288)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void org.torproject.android.OrbotMainActivity.onCreate(android.os.Bundle) (OrbotMainActivity.java:179)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void android.app.Activity.performCreate(android.os.Bundle, android.os.PersistableBundle) (Activity.java:7258)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7249)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1221)
+05-10 23:37:27.509 I/zygote  ( 8543):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2927)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3059)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1724)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void android.os.Looper.loop() (Looper.java:164)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:7002)
+05-10 23:37:27.509 I/zygote  ( 8543):   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:441)
+05-10 23:37:27.509 I/zygote  ( 8543):   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1408)
+05-10 23:37:27.509 I/zygote  ( 8543): 
+05-10 23:37:27.545 D/ScrollView( 8543): initGoToTop
+05-10 23:37:27.693 D/InputTransport( 8543): Input channel constructed: fd=73
+05-10 23:37:27.696 D/ViewRootImpl@6ce06f3[OrbotMainActivity]( 8543): setView = DecorView@ec92fb0[OrbotMainActivity] TM=true MM=false
+05-10 23:37:27.693 D/InputTransport( 8543): Input channel constructed: fd=73
+05-10 23:37:27.696 D/ViewRootImpl@6ce06f3[OrbotMainActivity]( 8543): setView = DecorView@ec92fb0[OrbotMainActivity] TM=true MM=false
+05-10 23:37:28.116 I/TorService( 8543): onCreate end
+05-10 23:37:28.134 D/ViewRootImpl@6ce06f3[OrbotMainActivity]( 8543): dispatchAttachedToWindow
+05-10 23:37:28.152 D/ViewRootImpl@6ce06f3[OrbotMainActivity]( 8543): Relayout returned: old=[0,0][0,0] new=[0,0][1600,2560] result=0x1 surface={valid=false 0} changed=false
+05-10 23:37:28.152 D/ViewRootImpl@6ce06f3[OrbotMainActivity]( 8543): Relayout returned: old=[0,0][0,0] new=[0,0][1600,2560] result=0x1 surface={valid=false 0} changed=false
+05-10 23:37:28.157 D/ScrollView( 8543):  onsize change changed
+05-10 23:37:28.161 E/ViewRootImpl@6ce06f3[OrbotMainActivity]( 8543): Surface is not valid.
+05-10 23:37:28.265 D/InputTransport( 8543): Input channel constructed: fd=74
+05-10 23:37:28.265 D/InputTransport( 8543): Input channel constructed: fd=74
+05-10 23:37:28.266 D/ViewRootImpl@f80d8a6[OnboardingActivity]( 8543): setView = DecorView@24302e7[OnboardingActivity] TM=true MM=false
+05-10 23:37:28.266 D/ViewRootImpl@f80d8a6[OnboardingActivity]( 8543): setView = DecorView@24302e7[OnboardingActivity] TM=true MM=false
+05-10 23:37:28.288 D/ViewRootImpl@6ce06f3[OrbotMainActivity]( 8543): Relayout returned: old=[0,0][1600,2560] new=[0,0][1600,2560] result=0x1 surface={valid=false 0} changed=false
+05-10 23:37:28.289 D/ViewRootImpl@f80d8a6[OnboardingActivity]( 8543): dispatchAttachedToWindow
+05-10 23:37:28.327 D/ViewRootImpl@f80d8a6[OnboardingActivity]( 8543): Relayout returned: old=[0,0][0,0] new=[0,0][1600,2560] result=0x27 surface={valid=true 3501457408} changed=true
+05-10 23:37:28.379 D/OpenGLRenderer( 8543): HWUI GL Pipeline
+05-10 23:37:28.401 D/ViewRootImpl@f80d8a6[OnboardingActivity]( 8543): MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1600, 2560) ci=Rect(0, 54 - 0, 108) vi=Rect(0, 54 - 0, 108) or=1
+05-10 23:37:28.401 D/ViewRootImpl@f80d8a6[OnboardingActivity]( 8543): MSG_WINDOW_FOCUS_CHANGED 1
+05-10 23:37:28.410 D/InputMethodManager( 8543): startInputInner - Id : 0
+05-10 23:37:28.410 I/InputMethodManager( 8543): startInputInner - mService.startInputOrWindowGainedFocus
+05-10 23:37:28.410 D/InputMethodManager( 8543): startInputInner - Id : 0
+05-10 23:37:28.410 I/InputMethodManager( 8543): startInputInner - mService.startInputOrWindowGainedFocus
+05-10 23:37:28.415 D/InputTransport( 8543): Input channel constructed: fd=79
+05-10 23:37:28.415 D/InputTransport( 8543): Input channel constructed: fd=79
+05-10 23:37:28.450 D/InputMethodManager( 8543): startInputInner - Id : 0
+05-10 23:37:28.450 D/InputMethodManager( 8543): startInputInner - Id : 0
+05-10 23:37:28.460 D/ViewRootImpl@6ce06f3[OrbotMainActivity]( 8543): Relayout returned: old=[0,0][1600,2560] new=[0,0][1600,2560] result=0x1 surface={valid=false 0} changed=false
+05-10 23:37:28.460 D/ViewRootImpl@6ce06f3[OrbotMainActivity]( 8543): Relayout returned: old=[0,0][1600,2560] new=[0,0][1600,2560] result=0x1 surface={valid=false 0} changed=false

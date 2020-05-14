@@ -1,0 +1,131 @@
+{
+  "screenshots": [
+    {
+      "name": "Pantalla principal",
+      "path": "img/screenshots/main_screen.jpg"
+    },
+    {
+      "name": "Pantalla inicial paso 1",
+      "path": "img/screenshots/landing_screen1.jpg"
+    },
+    {
+      "name": "Pantalla inicial paso 2",
+      "path": "img/screenshots/landing_screen2.jpg"
+    },
+    {
+      "name": "Pantalla inicial paso 3",
+      "path": "img/screenshots/landing_screen3.jpg"
+    },
+    {
+      "name": "Pantalla inicial paso 4",
+      "path": "img/screenshots/landing_screen4.jpg"
+    },
+    {
+      "name": "Pantalla acerca de",
+      "path": "img/screenshots/about_screen.jpg"
+    },
+    {
+      "name": "Drawer de logs",
+      "path": "img/screenshots/log_screen.jpg"
+    },
+    {
+      "name": "Pantalla principal apagada",
+      "path": "img/screenshots/main_screen_off.jpg"
+    },
+    {
+      "name": "Pantalla de configuracion",
+      "path": "img/screenshots/setting_screen.jpg"
+    },
+    {
+      "name": "Pantalla seleccion de apps para vpn",
+      "path": "img/screenshots/vpn_apps_screen.jpg"
+    },
+    {
+      "name": "Tor Check online",
+      "path": "img/screenshots/tor_check.jpg"
+    }
+  ],
+  "otherDevices": [
+    {
+      "device": "Samsung Galaxy Tap",
+      "screenshots": [
+        {
+          "name": "Samsung Galaxy Tap Landscape",
+          "path": "img/screenshots/other_devices/galaxy_tap_landscape.PNG"
+        },
+        {
+          "name": "Samsung Galaxy Tap",
+          "path": "img/screenshots/other_devices/galaxy_tap.PNG"
+        }
+      ]
+    },
+    {
+      "device": "Google Pixel C",
+      "screenshots": [
+        {
+          "name": "Google Pixel C screen1",
+          "path": "img/screenshots/other_devices/pixel_c.PNG"
+        },
+        {
+          "name": "Google Pixel C screen2",
+          "path": "img/screenshots/other_devices/pixel_c2.PNG"
+        },
+        {
+          "name": "Google Pixel C screen3",
+          "path": "img/screenshots/other_devices/pixel_c3.PNG"
+        },
+        {
+          "name": "Google Pixel c",
+          "path": "img/screenshots/other_devices/pixel_c.PNG"
+        }
+      ]
+    },
+    {
+      "device": "Google Pixel 3 XL",
+      "screenshots": [
+        {
+          "name": "Google Pixel 3 XL",
+          "path": "img/screenshots/other_devices/pixel_3xl.PNG"
+        }
+      ]
+    }
+  ],
+  "accesibility": [
+    {
+      "name": "Acromatomalia",
+      "path": "img/accesibility/achromatomaly.PNG"
+    },
+    {
+      "name": "Acromatopsia",
+      "path": "img/accesibility/achromatopsia.PNG"
+    },
+    {
+      "name": "Deuteranomalia",
+      "path": "img/accesibility/deuteranomaly.PNG"
+    },
+    {
+      "name": "Deuteranopia",
+      "path": "img/accesibility/deuteranopia.PNG"
+    },
+    {
+      "name": "Protanopia",
+      "path": "img/accesibility/protanopia.PNG"
+    },
+    {
+      "name": "Protonomaly",
+      "path": "img/accesibility/protonomaly.PNG"
+    },
+    {
+      "name": "Tritanomalia",
+      "path": "img/accesibility/tritanomaly.PNG"
+    },
+    {
+      "name": "Tritanopia",
+      "path": "img/accesibility/tritanopia.PNG"
+    },
+    {
+      "name": "Perdidad de vision moderada",
+      "path": "img/accesibility/vision_loss.PNG"
+    }
+  ]
+}

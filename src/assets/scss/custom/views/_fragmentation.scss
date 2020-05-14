@@ -1,0 +1,22 @@
+.fragmentation {
+  .screenshot-dropdowns {
+    display: flex;
+    flex-direction: row;
+  }
+  .image-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    min-height: 600px;
+  }
+  .screenshot-actions {
+    display: flex;
+  }
+  .device-screenshot {
+    max-width: 100%;
+    max-height: 500px;
+    border-radius: 5px;
+  }
+}

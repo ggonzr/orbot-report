@@ -1,0 +1,45 @@
+.accesibility {
+  .palette-card-1 {
+    background-color: #3f2b50;
+    color: #ffffff;
+  }
+  .palette-card-2 {
+    background-color: #4a3659;
+    color: #ffffff;
+  }
+  .palette-card-3 {
+    background-color: #6f617a;
+    color: #ffffff;
+  }
+  .palette-card-4 {
+    background-color: #ac9cb9;
+    color: #ffffff;
+  }
+  .palette-card-4 {
+    background-color: #b9b9b9;
+    color: #ffffff;
+  }
+  .palette-card-5 {
+    background-color: #c3b5ce;
+    color: #ffffff;
+  }
+  .header-title {
+    color: #ffffff;
+  }
+  .content {
+    img {
+      width: 100%;
+      border-radius: 1px;
+      margin-bottom: 20px;
+    }
+  }
+  .accesibility-screenshots {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 0;
+    label {
+      padding-left: 10px;
+    }
+  }
+}

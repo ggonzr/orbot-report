@@ -1,0 +1,42 @@
+.design {
+  .palette-card-1 {
+    background-color: #4a3659;
+    color: #ffffff;
+  }
+  .palette-card-2 {
+    background-color: #9dcd2b;
+    color: #ffffff;
+  }
+  .palette-card-3 {
+    background-color: #ffffff;
+    color: $primary;
+  }
+  .palette-card-4 {
+    background-color: #b9b9b9;
+    color: #ffffff;
+  }
+  .header-title {
+    color: #ffffff;
+  }
+  .content {
+    img {
+      width: 100%;
+      border-radius: 1px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.palette-card {
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14),
+    0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+  p {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+}
