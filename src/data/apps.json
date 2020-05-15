@@ -1,0 +1,44 @@
+{
+  "apps": [
+    {
+      "title": "Orxy: Tor Proxy",
+      "owner": "Inetric, LLC",
+      "description": "Protect your privacy, hide your location, and bypass site blocks.",
+      "image": "https://lh3.googleusercontent.com/QZncffsEQnlhVueGXSg74qAr9UsRrs00swrurxOYGEF9gnpRAHHf5mdsBaQY0-hW-cXm=s180-rw",
+      "rate": 3.6,
+      "link": "https://play.google.com/store/apps/details?id=com.inetric.orxy"
+    },
+    {
+      "title": "VPN Proxy Master lite",
+      "owner": "ALL Connected",
+      "description": "La VPN Proxy Master Lite, es una herramienta totalmente ilimitada y 100% gratuita.",
+      "image": "https://lh3.googleusercontent.com/56170Q8Xbrp6gbfi8K8Lz_NusThcH2ZK4iKmBBItP-kg4DUcmBmVWNam7zdVfra6RFc=s180-rw",
+      "rate": 4.6,
+      "link": "https://play.google.com/store/apps/details?id=free.vpn.unblock.fast.proxy.vpn.master.pro.lite"
+    },
+    {
+      "title": "Free VPN Unlimited Proxy",
+      "owner": "Free VPN Pte. Ltd.",
+      "description": "100% free Proxy! Totally unlimited bandwidth! Super fast and high VPN speed!",
+      "image": "https://lh3.googleusercontent.com/3cdPPD8YLq9FcZib10MeTvAP2lu6vShNPgPgq1jwrY_5EaENibxkdZhyOGvp2SDNkZQ=s180-rw",
+      "rate": 4.4,
+      "link": "https://play.google.com/store/apps/details?id=com.freevpn.unblock.proxy"
+    },
+    {
+      "title": "Free VPN Proxy",
+      "owner": "Hotspot VPN & Proxy Master",
+      "description": "Super VPN is Free VPN Proxy, and Unblock Master.",
+      "image": "https://lh3.googleusercontent.com/VRoxQ4cuO7a0e4xiPJJbkcw2uHW3KgrvHR_CN-__bwhIjgq4CbA5Rh4oX-FGzeZCU3o=s180-rw",
+      "rate": 4.3,
+      "link": "https://play.google.com/store/apps/details?id=com.supervpn.vpn.free.proxy"
+    },
+    {
+      "title": "Hola Free VPN Proxy",
+      "owner": "Hola VPN Ltd.",
+      "description": "Desbloquear sitios web, aplicaciones y el contenido | Acelera tu conexión | Mantenga sus actividades segura, segura y privada.",
+      "image": "https://lh3.googleusercontent.com/UMNtcCumuWs6cTA2-rW-jh8XLthsiKY6VuajNaAX-eQC_giQ3Zy42_bm-sDAB69DMFQ=s180-rw",
+      "rate": 4.4,
+      "link": "https://play.google.com/store/apps/details?id=org.hola"
+    }
+  ]
+}

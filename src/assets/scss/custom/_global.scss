@@ -1,0 +1,53 @@
+.router-link-active {
+  font-size: 2.5em;
+  font-weight: 300;
+}
+code {
+  background-color: #eee;
+  border-radius: 3px;
+  font-family: courier, monospace;
+  padding: 2px 5px;
+  color: $primary;
+}
+.palette-card {
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14),
+    0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  p {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+}
+
+.custom-agile {
+  .agile-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 400px;
+      max-height: 400px;
+    }
+  }
+  .agile__nav-button {
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    outline: none;
+    width: 35px;
+    height: 35px;
+    &:hover {
+      color: $primary;
+    }
+  }
+  .agile__actions {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+  }
+}

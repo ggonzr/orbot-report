@@ -5,7 +5,7 @@
 
     <div class="container-fluid mt--7">
       <div class="row">
-        <div class="col-12 col-md-10 offset-md-1 col-xl-8 offset-md-2">
+        <div class="col-12 col-md-10 offset-md-1 col-xl-6 offset-xl-0">
           <card class="content">
             <div slot="header" class="row align-items-center">
               <div class="col">
@@ -41,61 +41,7 @@
             </p>
           </card>
         </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-12">
-          <card class="content">
-            <div slot="header" class="row align-items-center">
-              <div class="col">
-                <h1>Inconsistencia de conectividad eventual</h1>
-              </div>
-            </div>
-            <div class="gifs-section">
-              <div class="gif-screenshot">
-                <img
-                  src="img/eventual_conn/normal.gif "
-                  alt="Estado normal"
-                  :class="gifSelected !== 0 ? 'inactive' : ''"
-                />
-                <a
-                  v-if="gifSelected !== 0"
-                  class="btn btn-sm btn-secondary"
-                  @click="() => changeSelected(0)"
-                  >Normal</a
-                >
-              </div>
-              <div class="gif-screenshot">
-                <img
-                  src="img/eventual_conn/airplane_mode.gif"
-                  alt="Modo Avion"
-                  :class="gifSelected !== 1 ? 'inactive' : ''"
-                />
-                <a
-                  v-if="gifSelected !== 1"
-                  class="btn btn-sm btn-secondary"
-                  @click="() => changeSelected(1)"
-                  >Sin acceso a internet</a
-                >
-              </div>
-              <div class="gif-screenshot">
-                <img
-                  src="img/eventual_conn/internet_back.gif"
-                  alt="Internet de vuelta"
-                  :class="gifSelected !== 2 ? 'inactive' : ''"
-                />
-                <a
-                  v-if="gifSelected !== 2"
-                  class="btn btn-sm btn-secondary"
-                  @click="() => changeSelected(2)"
-                  >Acceso a internet de vuelta</a
-                >
-              </div>
-            </div>
-          </card>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col">
+        <div class="col-md-10 offset-md-1 col-xl-6 offset-xl-0">
           <card class="content">
             <div class="table-responsive-sm">
               <table class="table table-hover">
@@ -137,6 +83,62 @@
                   </tr>
                 </tbody>
               </table>
+            </div>
+          </card>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-12">
+          <card class="content">
+            <div slot="header" class="row align-items-center">
+              <div class="col">
+                <h1>Inconsistencia de conectividad eventual</h1>
+              </div>
+            </div>
+            <div class="gifs-section">
+              <div class="gif-screenshot">
+                <p v-if="gifSelected === 0">Normal</p>
+                <img
+                  src="img/eventual_conn/normal.gif "
+                  alt="Estado normal"
+                  :class="gifSelected !== 0 ? 'inactive' : ''"
+                />
+                <a
+                  v-if="gifSelected !== 0"
+                  class="btn btn-sm btn-secondary"
+                  @click="() => changeSelected(0)"
+                  >Normal</a
+                >
+              </div>
+              <div class="gif-screenshot">
+                <p v-if="gifSelected === 1">Sin acceso a internet</p>
+                <img
+                  src="img/eventual_conn/airplane_mode.gif"
+                  alt="Modo Avion"
+                  :class="gifSelected !== 1 ? 'inactive' : ''"
+                />
+                <a
+                  v-if="gifSelected !== 1"
+                  class="btn btn-sm btn-secondary"
+                  @click="() => changeSelected(1)"
+                  >Sin acceso a internet</a
+                >
+              </div>
+              <div class="gif-screenshot">
+                <p v-if="gifSelected === 2">Acceso a internet de vuelta</p>
+                <img
+                  src="img/eventual_conn/internet_back.gif"
+                  alt="Internet de vuelta"
+                  :class="gifSelected !== 2 ? 'inactive' : ''"
+                />
+                <a
+                  v-if="gifSelected !== 2"
+                  class="btn btn-sm btn-secondary"
+                  @click="() => changeSelected(2)"
+                  >Acceso a internet de vuelta</a
+                >
+              </div>
             </div>
           </card>
         </div>

@@ -29,8 +29,12 @@
 @import 'custom/separator';
 @import 'custom/tables';
 @import 'custom/type';
+@import 'custom/global';
 @import 'custom/components/google-play-card';
+@import 'custom/components/app-card';
 @import 'custom/views/design';
 @import 'custom/views/accesibility';
 @import 'custom/views/debugging';
+@import 'custom/views/fragmentation';
 @import 'custom/views/eventual';
+@import 'custom/views/permissions';

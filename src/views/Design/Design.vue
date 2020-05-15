@@ -28,7 +28,7 @@
           <card class="content">
             <div slot="header" class="row align-items-center">
               <div class="col">
-                <h1>Diseño de la aplicación</h1>
+                <h1>Componentes</h1>
               </div>
             </div>
             <p>

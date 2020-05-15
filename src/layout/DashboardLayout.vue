@@ -58,8 +58,43 @@
         <sidebar-item
           :link="{
             name: 'Conectividad Eventual',
-            icon: 'fas fa-chart-line text-red',
+            icon: 'fas fa-ban text-red',
             path: '/eventual-connectivity'
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Permisos',
+            icon: 'fas fa-check text-success',
+            path: '/permissions'
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Integración',
+            icon: 'fas fa-sign-in-alt text-blue',
+            path: '/integration'
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Performance',
+            icon: 'fas fa-tachometer-alt text-orange',
+            path: '/performance'
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Codigo y Micro-optimizaciones',
+            icon: 'fas fa-code text-default',
+            path: '/code'
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Repositorio',
+            icon: 'fas fa-code-branch text-primary',
+            path: '/repo'
           }"
         />
       </template>

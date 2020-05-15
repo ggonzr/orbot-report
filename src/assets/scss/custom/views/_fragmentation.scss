@@ -9,10 +9,12 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
+    min-width: 100%;
     min-height: 600px;
   }
   .screenshot-actions {
     display: flex;
+    justify-content: center;
   }
   .device-screenshot {
     max-width: 100%;

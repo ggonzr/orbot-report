@@ -4,6 +4,7 @@ import DashboardLayout from '@/layout/DashboardLayout';
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
   linkExactActiveClass: 'active',
   routes: [
     {
@@ -15,11 +16,6 @@ export default new Router({
           path: '/dashboard',
           name: 'dashboard',
           component: () => import('./views/Dashboard/Dashboard.vue'),
-        },
-        {
-          path: '/tables',
-          name: 'tables',
-          component: () => import('./views/Tables/Tables.vue'),
         },
         {
           path: '/application',
@@ -47,9 +43,40 @@ export default new Router({
           component: () => import('./views/Debugging/Debugging.vue'),
         },
         {
+          path: '/fragmentation',
+          name: 'Ejecucíon',
+          component: () => import('./views/Fragmentation/Fragmentation.vue'),
+        },
+        {
           path: '/eventual-connectivity',
           name: 'Conectividad Eventual',
           component: () => import('./views/Eventual/Eventual.vue'),
+        },
+
+        {
+          path: '/permissions',
+          name: 'Permisos',
+          component: () => import('./views/Permissions/Permissions.vue'),
+        },
+        {
+          path: '/integration',
+          name: 'Integración',
+          component: () => import('./views/Integration/Integration.vue'),
+        },
+        {
+          path: '/performance',
+          name: 'Conectividad Eventual',
+          component: () => import('./views/Performance/Performance.vue'),
+        },
+        {
+          path: '/code',
+          name: 'Codigo y Micro-Optimizacion',
+          component: () => import('./views/Code/Code.vue'),
+        },
+        {
+          path: '/repo',
+          name: 'Repositorio',
+          component: () => import('./views/Repo/Repo.vue'),
         },
       ],
     },
