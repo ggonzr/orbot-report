@@ -64,6 +64,13 @@
                 >https://developer.android.com/topic/libraries/view-binding</a
               >
             </p>
+            <p>
+              A continuación se proponen las mejoras a la UI de la actividad Principal
+              <b>OrbotMainActivity</b> utilizando View Binding
+            </p>
+            <vue-embed-gist
+              gist-id="5b1cb5c437d38389b723369ad254cc66"              
+            />
           </card>
         </div>
       </div>
@@ -71,4 +78,10 @@
   </div>
 </template>
 <script>
+import VueEmbedGist from "vue-embed-gist";
+export default {
+  components: {
+    VueEmbedGist
+  }
+};
 </script> 
