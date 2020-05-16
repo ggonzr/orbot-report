@@ -63,6 +63,21 @@
               frameborder="0"
               allowFullScreen="true"
             ></iframe>
+            <p>
+              Para poder acceder al dashboard hace falta acceder al Microsoft
+              Power BI
+            </p>
+            <base-button @click="dashboard = !dashboard" class="button">
+              {{
+                dashboard ? "Ocultar Imagen Dashboard" : "Ver Imagen Dashboard"
+              }}
+            </base-button>
+            <img
+              v-if="dashboard"
+              class="dashboard"
+              src="img/screenshots/dashboard.PNG"
+              alt="dashboard"
+            />
           </card>
         </div>
       </div>
@@ -114,12 +129,7 @@ export default {
   data() {
     return {
       result: null,
-      deployments: null,
-      languages: null,
-      contributors: null,
-      pull_requests: null,
-      commits: null,
-      loading: null
+      dashboard: false
     };
   },
   mounted() {
