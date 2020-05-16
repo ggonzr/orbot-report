@@ -85,6 +85,13 @@
         />
         <sidebar-item
           :link="{
+            name: 'Seguridad',            
+            icon: 'fas fa-user-secret',
+            path: '/security'
+          }"
+        />
+        <sidebar-item
+          :link="{
             name: 'Repositorio',
             icon: 'fas fa-code-branch text-primary',
             path: '/repo'

@@ -73,6 +73,11 @@ export default new Router({
           name: 'Repositorio',
           component: () => import('./views/Repo/Repo.vue'),
         },
+        {
+          path: '/security',
+          name: 'Seguridad',
+          component: () => import('./views/Security/Security.vue'),
+        },        
       ],
     },
   ],
