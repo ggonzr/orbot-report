@@ -35,7 +35,7 @@
           ejecutar acciones en la aplicación y de ellos el thread
           project.android ejecuta la mayor cantidad de trabajo.
         </p>
-        <img src="img/performance/cpu4.PNG" alt="cpu1" />
+        <img src="img/performance/cpu4.png" alt="cpu1" />
       </card>
     </div>
 
@@ -56,7 +56,7 @@
           alrededor de los 200MB. Asimismo, después de girar la pantalla varias
           veces, la aplicación cierra inesperadamente.
         </p>
-        <img src="img/performance/memory4.PNG" alt="cpu1" />
+        <img src="img/performance/memory4.png" alt="cpu1" />
       </card>
     </div>
     <div class="col-12 col-md-8 offset-md-2 mt-5">
@@ -74,7 +74,7 @@
           velocidad de carga y descarga en algunos KB/s alcanzando un límite de
           12KB/s.
         </p>
-        <img src="img/performance/network4.PNG" alt="cpu1" />
+        <img src="img/performance/network4.png" alt="cpu1" />
       </card>
     </div>
     <div class="col-12 col-md-8 offset-md-2 mt-5">
@@ -91,7 +91,7 @@
           de la aplicación y del experimento situándose los valores en un nivel
           bajo.
         </p>
-        <img src="img/performance/energy4.PNG" alt="cpu1" />
+        <img src="img/performance/energy4.png" alt="cpu1" />
       </card>
     </div>
   </div>

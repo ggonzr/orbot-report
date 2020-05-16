@@ -31,7 +31,7 @@
           considerablemente hasta situarse en 15%. La mayor carga es procesada
           por el Thread project.android.
         </p>
-        <img src="img/performance/cpu3.PNG" alt="cpu1" />
+        <img src="img/performance/cpu3.png" alt="cpu1" />
       </card>
     </div>
 
@@ -48,7 +48,7 @@
           memoria cuando la app se cierra de manera inesperada por el bug
           reportado.
         </p>
-        <img src="img/performance/memory3.PNG" alt="cpu1" />
+        <img src="img/performance/memory3.png" alt="cpu1" />
       </card>
     </div>
     <div class="col-12 col-md-8 offset-md-2 mt-5">
@@ -66,7 +66,7 @@
           aplicación debido al error se presenta una lectura sucia al final de
           la muestra.
         </p>
-        <img src="img/performance/network3.PNG" alt="cpu1" />
+        <img src="img/performance/network3.png" alt="cpu1" />
       </card>
     </div>
     <div class="col-12 col-md-8 offset-md-2 mt-5">
@@ -84,7 +84,7 @@
           desplazamos rápidamente por los elementos de la lista de
           configuraciones
         </p>
-        <img src="img/performance/energy3.PNG" alt="cpu1" />
+        <img src="img/performance/energy3.png" alt="cpu1" />
       </card>
     </div>
   </div>

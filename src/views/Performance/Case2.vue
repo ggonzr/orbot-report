@@ -14,7 +14,7 @@
           sus nodos propios o conectarse a servidores de la propia comunidad que
           transmiten el tráfico como una red P2P.
         </p>
-        <img src="img/performance/general2.PNG" alt="general1" />
+        <img src="img/performance/general2.png" alt="general1" />
       </card>
     </div>
 
@@ -30,7 +30,7 @@
           y reporta un consumo del 9,8% ejecutando sus procesos dentro del
           thread project.android.
         </p>
-        <img src="img/performance/cpu2.PNG" alt="cpu1" />
+        <img src="img/performance/cpu2.png" alt="cpu1" />
       </card>
     </div>
 
@@ -48,7 +48,7 @@
           aplicación (61MB) seguida de los procesos que realizan las librerías
           nativas (36MB) y el código Java (21MB).
         </p>
-        <img src="img/performance/memory2.PNG" alt="cpu1" />
+        <img src="img/performance/memory2.png" alt="cpu1" />
       </card>
     </div>
     <div class="col-12 col-md-8 offset-md-2 mt-5">
@@ -65,7 +65,7 @@
           cual podemos observar que las velocidades de carga y descarga no
           superan más de 3,5 KB/s.
         </p>
-        <img src="img/performance/network2.PNG" alt="cpu1" />
+        <img src="img/performance/network2.png" alt="cpu1" />
       </card>
     </div>
     <div class="col-12 col-md-8 offset-md-2 mt-5">
@@ -83,7 +83,7 @@
           bajo de batería. Esto se debe a un consumo principalmente del
           componente de CPU.
         </p>
-        <img src="img/performance/energy2.PNG" alt="cpu1" />
+        <img src="img/performance/energy2.png" alt="cpu1" />
       </card>
     </div>
   </div>

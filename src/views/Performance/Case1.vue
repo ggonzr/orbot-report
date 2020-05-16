@@ -17,7 +17,7 @@
           localización de reenvío de paquetes, cambiar la configuración del
           túnel y la configuración general de la aplicación.
         </p>
-        <img src="img/performance/general1.PNG" alt="general1" />
+        <img src="img/performance/general1.png" alt="general1" />
       </card>
     </div>
 
@@ -40,7 +40,7 @@
           aplicación utiliza alrededor de 15 Threads para paralelizar el envío
           de paquetes de información.
         </p>
-        <img src="img/performance/cpu1.PNG" alt="cpu1" />
+        <img src="img/performance/cpu1.png" alt="cpu1" />
       </card>
     </div>
 
@@ -59,7 +59,7 @@
           Este proceso implica que la aplicación duplique su consumo de memoria
           y este se establezca alrededor de 135MB.
         </p>
-        <img src="img/performance/memory1.PNG" alt="cpu1" />
+        <img src="img/performance/memory1.png" alt="cpu1" />
       </card>
     </div>
     <div class="col-12 col-md-8 offset-md-2 mt-5">
@@ -81,7 +81,7 @@
           que rondan alrededor de los 10 o los 5 Kbps en un estado activo sin
           tráfico de otras aplicaciones.
         </p>
-        <img src="img/performance/network1.PNG" alt="cpu1" />
+        <img src="img/performance/network1.png" alt="cpu1" />
       </card>
     </div>
     <div class="col-12 col-md-8 offset-md-2 mt-5">
@@ -100,7 +100,7 @@
           fluctúa a lo largo actividad principal. No obstante, la mayor parte
           del tiempo el consumo se mantiene en niveles bajos.
         </p>
-        <img src="img/performance/energy1.PNG" alt="cpu1" />
+        <img src="img/performance/energy1.png" alt="cpu1" />
       </card>
     </div>
   </div>
