@@ -55,8 +55,4 @@
   </div>
 </template>
 <script>
-export default {
-  name: "tables",
-  components: {}
-};
 </script>

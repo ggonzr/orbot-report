@@ -77,12 +77,53 @@
           </card>
         </div>
       </div>
+      <div class="row mt-5">
+        <div class="col-12 col-md-8 offset-md-2">
+          <card class="content">
+            <div slot="header" class="row align-items-center">
+              <div class="col">
+                <h1>Casos Particulares</h1>
+              </div>
+            </div>
+            <p>
+              Durante las pruebas en estos dispositivos únicamente encontramos
+              problemas de visualización en el Google Pixel C en modo landscape
+              en el que algunos botones tienen overflow de texto debido a que
+              los botones tienen un tamaño de alto fijo. Esto se puede ven en el
+              archivo custom slide big text.xml en donde definen el tamaño fijo
+              tanto del ancho como del alto.
+            </p>
+
+            <vue-embed-gist
+              gist-id="67f65dd8c5e432ca719a95bc856ad01e"
+              file="custom_slide_big_text.xml"
+            />
+
+            <p>
+              Adicionalmente, el dropdown de selección de la zona que a pesar de
+              tener suficiente espacio, abarca una pequeña zona y no muestra los
+              nombres completos.
+            </p>
+            <div class="image-wrapper">
+              <img
+                class="device-screenshot"
+                src="img/screenshots/other_devices/pixel_c2.PNG"
+                alt="Pixel C style error"
+              />
+            </div>
+          </card>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 <script>
+import VueEmbedGist from "vue-embed-gist";
 import screenshots from "@/data/screenshots.json";
 export default {
+  components: {
+    VueEmbedGist
+  },
   data() {
     return {
       mainDevices: screenshots.screenshots,

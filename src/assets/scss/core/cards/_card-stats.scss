@@ -1,16 +1,14 @@
-//
-// Card stats
-//
-
 .card-stats {
-    .card-body {
-        padding: 1rem 1.5rem;
-    }
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14),
+    0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+  .card-body {
+    padding: 1rem 1.5rem;
+  }
 
-    .card-status-bullet {
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(50%, -50%);
-    }
+  .card-status-bullet {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+  }
 }

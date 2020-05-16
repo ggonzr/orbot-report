@@ -9,14 +9,9 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: 'dashboard',
+      redirect: 'application',
       component: DashboardLayout,
       children: [
-        {
-          path: '/dashboard',
-          name: 'dashboard',
-          component: () => import('./views/Dashboard/Dashboard.vue'),
-        },
         {
           path: '/application',
           name: 'Aplicación',

@@ -8,15 +8,8 @@
       <template slot="links">
         <sidebar-item
           :link="{
-            name: 'Resumen',
-            icon: 'ni ni-tv-2 text-primary',
-            path: '/dashboard'
-          }"
-        />
-        <sidebar-item
-          :link="{
             name: 'Aplicación',
-            icon: 'ni ni-bullet-list-67 text-red',
+            icon: 'ni ni-tv-2 text-primary',
             path: '/application'
           }"
         />
