@@ -94,10 +94,7 @@
               tanto del ancho como del alto.
             </p>
 
-            <vue-embed-gist
-              gist-id="67f65dd8c5e432ca719a95bc856ad01e"
-              file="custom_slide_big_text.xml"
-            />
+            <vue-embed-gist gist-id="67f65dd8c5e432ca719a95bc856ad01e" />
 
             <p>
               Adicionalmente, el dropdown de selección de la zona que a pesar de
