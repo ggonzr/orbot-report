@@ -60,7 +60,7 @@ export default new Router({
         },
         {
           path: '/performance',
-          name: 'Conectividad Eventual',
+          name: 'Performance',
           component: () => import('./views/Performance/Performance.vue'),
         },
         {

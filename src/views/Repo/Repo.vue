@@ -64,20 +64,42 @@
               allowFullScreen="true"
             ></iframe>
             <p>
-              Para poder acceder al dashboard hace falta acceder al Microsoft
-              Power BI
+              Para poder acceder al dashboard hace falta acceder a Microsoft
+              Power BI.
             </p>
             <base-button @click="dashboard = !dashboard" class="button">
               {{
                 dashboard ? "Ocultar Imagen Dashboard" : "Ver Imagen Dashboard"
               }}
             </base-button>
-            <img
+            <agile
               v-if="dashboard"
-              class="dashboard"
-              src="img/screenshots/dashboard.PNG"
-              alt="dashboard"
-            />
+              class="custom-agile"
+              :dots="false"
+              :infinite="false"
+              autoplay
+            >
+              <div class="slide fluid-agile-slide">
+                <img
+                  class="dashboard"
+                  src="img/screenshots/dashboard.PNG"
+                  alt="dashboard"
+                />
+              </div>
+              <div class="slide fluid-agile-slide">
+                <img
+                  class="dashboard"
+                  src="img/screenshots/dashboard2.PNG"
+                  alt="dashboard"
+                />
+              </div>
+              <template slot="prevButton"
+                ><i class="fas fa-chevron-left"></i
+              ></template>
+              <template slot="nextButton"
+                ><i class="fas fa-chevron-right"></i
+              ></template>
+            </agile>
           </card>
         </div>
       </div>
@@ -120,12 +142,11 @@
   </div>
 </template>
 <script>
+import { VueAgile } from "vue-agile";
 import RepoDescription from "./RepoDescription";
 export default {
   name: "repo",
-  components: {
-    RepoDescription
-  },
+  components: { agile: VueAgile, RepoDescription },
   data() {
     return {
       result: null,

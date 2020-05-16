@@ -1,5 +1,29 @@
 .performance-case {
   img {
+    border-radius: 5px;
     width: 100%;
+  }
+}
+.overdraw {
+  img {
+    border-radius: 5px;
+    width: 50%;
+  }
+  .overdraw-gif {
+    display: flex;
+    justify-content: center;
+  }
+  .overdraw-actions {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  .landing-overdraw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img {
+      width: 45%;
+    }
   }
 }
