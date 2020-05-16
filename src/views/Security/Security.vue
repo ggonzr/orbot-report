@@ -4,9 +4,16 @@
       <div class="row">
         <div class="col-4 offset-4">
           <figure class="figure">
-              <img src="/img/security/security.jpeg" class="figure-img img-fluid z-depth-1"
-              alt="Security Orbot Log" style="width: 400px">
-              <figcaption class="figure-caption text-right">Conexión con el servicio de Tor denegada debido a la brecha interna</figcaption>
+            <img
+              src="/img/security/security.jpeg"
+              class="figure-img img-fluid z-depth-1"
+              alt="Security Orbot Log"
+              style="width: 400px"
+            />
+            <figcaption class="figure-caption text-right">
+              Conexión con el servicio de Tor denegada debido a la brecha
+              interna
+            </figcaption>
           </figure>
         </div>
       </div>
@@ -47,7 +54,8 @@
               gist-id="2baed64150ddd418e4989fb5ab77fb9c"              
             />
             <p>
-              Para culminar, detallamos el manejo de la clase <b>Tune2Socks</b> que invoca directamente la libreria escrita en C
+              Para culminar, detallamos el manejo de la clase
+              <b>Tune2Socks</b> que invoca directamente la libreria escrita en C
               utilizando el JNI
             </p>
             <vue-embed-gist
@@ -62,23 +70,8 @@
 <script>
 import VueEmbedGist from "vue-embed-gist";
 export default {
-  data() {
-    return {
-      app: {
-        title: "Barcode Scanner",
-        owner: "ZXing Team",
-        description:
-          "Scan barcodes on products, or Data Matrix and QR Codes containing URLs, contact info, etc.",
-        image:
-          "https://lh3.googleusercontent.com/os72icmFlDtbxpYbZCP-v6kOereSLGDmlKsBl1ISTPdgbcpoc4rSIuXDuoDECvgcvoFJ=s180-rw",
-        rate: 4.1,
-        link:
-          "https://play.google.com/store/apps/details?id=com.google.zxing.client.android"
-      }
-    };
-  },
   components: {
-    VueEmbedGist,    
+    VueEmbedGist
   }
 };
 </script> 

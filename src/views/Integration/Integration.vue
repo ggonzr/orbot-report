@@ -24,10 +24,7 @@
               hace intents al seleccionar la opción de compartir o escanear un
               código QR para crear un puente de conexión.
             </p>
-            <vue-embed-gist
-              gist-id="54afe1c46bad7def6f89304d0447b1de"
-              file="IntentIntegrator.java"
-            />
+            <vue-embed-gist gist-id="54afe1c46bad7def6f89304d0447b1de" />
             <p>
               Es curioso que utilicen esta función en específico para escanear
               códigos QR en lugar de utilizar la Aplicacion de camara nativa que
@@ -37,20 +34,14 @@
               desean generar.
             </p>
 
-            <vue-embed-gist
-              gist-id="5485e9fd861300bf736e0f0bfde55fc4"
-              file="IntentIntegrator.java"
-            />
+            <vue-embed-gist gist-id="5485e9fd861300bf736e0f0bfde55fc4" />
             <p>
               Asimismo, en el archivo manifest.xml incluyen el tag
               <b>intent-filter</b>
               necesario para que los dispositivos dirijan los códigos QR
               escaneados a la aplicación a la aplicación de Orbot.
             </p>
-            <vue-embed-gist
-              gist-id="b4307ccb7c4e3e6cdab0d126e217de83"
-              file="manifest.xml"
-            />
+            <vue-embed-gist gist-id="b4307ccb7c4e3e6cdab0d126e217de83" />
           </card>
         </div>
       </div>

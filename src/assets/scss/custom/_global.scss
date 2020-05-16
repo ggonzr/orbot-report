@@ -26,6 +26,11 @@ code,
 }
 
 .custom-agile {
+  .fluid-agile-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .agile-slide {
     display: flex;
     justify-content: center;
