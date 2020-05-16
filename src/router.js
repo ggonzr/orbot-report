@@ -6,6 +6,7 @@ Vue.use(Router);
 export default new Router({
   mode: 'history',
   linkExactActiveClass: 'active',
+
   routes: [
     {
       path: '/',
@@ -77,8 +78,15 @@ export default new Router({
           path: '/security',
           name: 'Seguridad',
           component: () => import('./views/Security/Security.vue'),
-        },        
+        },
       ],
     },
   ],
+  scrollBehavior() {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({ x: 0, y: 0 });
+      }, 200);
+    });
+  },
 });
