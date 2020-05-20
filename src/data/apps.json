@@ -1,12 +1,12 @@
 {
   "apps": [
     {
-      "title": "Orxy: Tor Proxy",
-      "owner": "Inetric, LLC",
-      "description": "Protect your privacy, hide your location, and bypass site blocks.",
-      "image": "https://lh3.googleusercontent.com/QZncffsEQnlhVueGXSg74qAr9UsRrs00swrurxOYGEF9gnpRAHHf5mdsBaQY0-hW-cXm=s180-rw",
-      "rate": 3.6,
-      "link": "https://play.google.com/store/apps/details?id=com.inetric.orxy"
+      "title": "TunnelBear VPN",
+      "owner": "Tunnelbear, LLC",
+      "description": "¡Rawr! TunnelBear para Android mantiene tu ubicación física privada y te ayuda a acceder a tus sitios web favoritos censurados o bloqueados.",
+      "image": "https://lh3.googleusercontent.com/e1PeYAZHuuwSaUuVMgTqD4WAnnJjJ0i9hqVWMt5IJSm4alk29-RCPOIkmmns5PFhztQ=s180-rw",
+      "rate": 4.5,
+      "link": "https://play.google.com/store/apps/details?id=com.tunnelbear.android&hl=es_CO"
     },
     {
       "title": "VPN Proxy Master lite",
@@ -25,12 +25,12 @@
       "link": "https://play.google.com/store/apps/details?id=com.freevpn.unblock.proxy"
     },
     {
-      "title": "Free VPN Proxy",
-      "owner": "Hotspot VPN & Proxy Master",
-      "description": "Super VPN is Free VPN Proxy, and Unblock Master.",
-      "image": "https://lh3.googleusercontent.com/VRoxQ4cuO7a0e4xiPJJbkcw2uHW3KgrvHR_CN-__bwhIjgq4CbA5Rh4oX-FGzeZCU3o=s180-rw",
-      "rate": 4.3,
-      "link": "https://play.google.com/store/apps/details?id=com.supervpn.vpn.free.proxy"
+      "title": "ExpressVPN",
+      "owner": "ExpressVPN",
+      "description": "ExpressVPN es una red privada virtual diseñada para proteger su privacidad y su seguridad. Navegue por internet de manera segura y anónima en tan solo unos pocos toques.",
+      "image": "https://lh3.googleusercontent.com/sHYThZbHV4JKdtxhuevilrKED03SIuNapDZ7_W2tygy1DWB7WczUuFLLURtk20IIMLq8=s180-rw",
+      "rate": 4,
+      "link": "https://play.google.com/store/apps/details?id=com.expressvpn.vpn&hl=es_CO"
     },
     {
       "title": "Hola Free VPN Proxy",
