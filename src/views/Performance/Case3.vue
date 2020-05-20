@@ -9,10 +9,10 @@
         </div>
         <p>
           En esta actividad podemos realizar la configuración de parámetros de
-          la aplicación en general. Un patron anomalo en esta actividad se debe
-          a la renderización del slider, en caso de que nos movamos rápidamente
-          por la lista de elementos, el consumo de memoria aumentara hasta que
-          la aplicación falle.
+          la aplicación en general. Un patrón anómalo en esta actividad se debe
+          a la renderización del slider, en caso de que desplacemos la lista de
+          elementos al inicio o al final de manera inmediata, el consumo de memoria
+          aumentará hasta que la aplicación falle. 
         </p>
       </card>
     </div>
@@ -26,10 +26,10 @@
         </div>
         <p>
           El porcentaje de consumo de CPU en esta actividad es casi nulo
-          ubicándose alrededor de un 5%. En el momento en el cual nos
-          desplazamos rápidamente por los elementos, el consumo de CPU aumenta
-          considerablemente hasta situarse en 15%. La mayor carga es procesada
-          por el Thread project.android.
+          ubicándose alrededor de un 5%. En el momento en el cual desplazamos 
+          la lista de elementos al inicio y al final de manera inmediata, el 
+          consumo de CPU aumenta considerablemente hasta situarse en 15%. 
+          La mayor carga es procesada por el Thread project.android
         </p>
         <img src="img/performance/cpu3.png" alt="cpu1" />
       </card>
@@ -79,10 +79,10 @@
           </div>
         </div>
         <p>
-          Esta sección presenta un bajo consumo de energía en general. El
-          consumo aumenta de manera considerable en el momento en que nos
-          desplazamos rápidamente por los elementos de la lista de
-          configuraciones
+          Esta sección presenta un bajo consumo de energía en general. 
+          El consumo aumenta de manera considerable en el momento en 
+          cual desplazamos inmediatamente hacia el inicio y hacia el final 
+          la lista de configuraciones
         </p>
         <img src="img/performance/energy3.png" alt="cpu1" />
       </card>

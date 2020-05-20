@@ -29,11 +29,10 @@
             </p>
 
             <p>
-              Por ello al iniciar el servicio de Proxy/VPN e ir cambiando entre
-              las diferentes vistas mencionadas con anterioridad, el sistema
-              escala el uso de la memoria RAM a 170 MB y cambiando entre las
-              vistas de manera rápida a 230MB. Asimismo se encontraron diversos
-              bugs en la aplicación. El primero de ellos se encuentra al
+              Por ello al iniciar el servicio de Proxy/VPN e ir alternando entre las vistas
+              realizando el intercambio en menos de 2s, el sistema escala el uso de la memoria RAM
+              a 170MB a 230MB. Asimismo se encontraron diversos bugs en la aplicación.
+              El primero de ellos se encuentra al
               seleccionar un puente para el envío de datos en la red tor
               <b>(Modo Bridge)</b>, independientemente de la opción que se
               seleccione, el slider no registra la opción de escogencia
@@ -41,9 +40,10 @@
               selección se cierra.
               <br />
               Otro bug se encuentra en el manejo de los elementos de la UI al
-              rotar la pantalla. Si se rota la pantalla rápidamente para mostrar
-              los elementos de manera vertical u horizontal, la aplicación se
-              reinicia y el servicio de VPN se cierra. Para culminar, un último
+              rotar la pantalla. Si se rota la pantalla en intervalos inferiores
+              a 1s para mostrar los elementos de manera vertical u horizontal, 
+              la aplicación se reinicia y el servicio de VPN se cierra.
+              Para culminar, un último
               bug se dispara en la pantalla de Settings cuando la opción de VPN
               se encuentra activa, si nos dirigimos a la lista de opciones y
               realizamos un scroll rápido de la pantalla, la aplicación se
@@ -53,9 +53,8 @@
               Con el fin de optimizar el uso de memoria y evitar el uso de este
               método podemos utilizar en su lugar una vinculación de vistas.
               Esta funcionalidad crea un clase con las referencias a los objetos
-              de la vista de manera que sean rápidamente accesibles y no sea
-              necesario buscar el ID por todas las vistas que posee la
-              aplicación.
+              de la vista de manera que el acceso al objeto sea inmediato y no sea
+              necesario buscar el ID por todas las vistas que posee la aplicación.
             </p>
             <p>
               View Binding:
