@@ -58,7 +58,7 @@
         </p>
         <img src="img/performance/memory4.png" alt="cpu1" />
         <p></p>
-        <figure>
+        <figure id="doLayout">
           <img
             class="code"
             src="img/screenshots/doLayoutMainAct.png"

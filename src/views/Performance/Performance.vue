@@ -42,7 +42,7 @@
     </base-header>
 
     <div class="container-fluid mt--7">
-      <case1 v-if="selected === 2" />
+      <case1 v-if="selected === 2" :callback="changeView"/>
       <case2 v-if="selected === 3" />
       <case3 v-if="selected === 4" />
       <case4 v-if="selected === 5" />
@@ -98,6 +98,11 @@ export default {
     return {
       selected: 1
     };
+  },
+  methods: {
+    changeView: function (view) {
+      this.selected = view;
+    }
   }
 };
 </script>
