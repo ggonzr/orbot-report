@@ -79,6 +79,16 @@ export default new Router({
           name: 'Seguridad',
           component: () => import('./views/Security/Security.vue'),
         },
+        {
+          path: '/architecture',
+          name: 'Arquitectura',
+          component: () => import('./views/Architecture/Architecture.vue'),
+        },
+        {
+          path: '/storage',
+          name: 'Local Storage & Cache',
+          component: () => import('./views/Storage/Storage.vue'),
+        },
       ],
     },
   ],
