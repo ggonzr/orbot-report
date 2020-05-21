@@ -130,12 +130,8 @@
   </div>
 </template>
 <script>
-import VueEmbedGist from "vue-embed-gist";
 import screenshots from "@/data/screenshots.json";
 export default {
-  components: {
-    VueEmbedGist
-  },
   data() {
     return {
       mainDevices: screenshots.screenshots,
