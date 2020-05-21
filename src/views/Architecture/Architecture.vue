@@ -1,120 +1,69 @@
 <template>
-  <div class="fragmentation">
+  <div class="architecture">
     <base-header type="gradient-primary" class="pb-6 pb-8 pt-5 pt-md-8">
     </base-header>
-
     <div class="container-fluid mt--7">
-      <div class="row">
-        <div class="col-12 col-md-8 offset-md-2">
-          <card class="content">
-            <div slot="header" class="row align-items-center">
-              <div class="col">
-                <h1>Arquitectura</h1>
-              </div>
-            </div>
-            <p>
-              Probando en diferentes dispositivos de distintos tamaños
-              encontramos que la aplicación únicamente tiene un breakpoint. la
-              aplicación tiene el misma distribución de componentes visuales sin
-              importar el tamaño del dispositivo. Durante el análisis probamos
-              en los siguientes dispositivos.
-              <br />
-              Durante el análisis probamos en los siguientes dispositivos
-            </p>
-            <ul>
-              <li>Galaxy S10e - Android 10</li>
-              <li>Pixel 3xl - Android 9 (BrowserStack)</li>
-              <li>Galaxy Tap (BrowserStack)</li>
-              <li>Galaxy A10e - Android 9 (Kobiton)</li>
-              <li>Pixel 3a - Android 10 (Kobiton)</li>
-              <li>Xperia 10 plus - Android 9 (Kobiton)</li>
-              <li>Pixel C - Android 8.1 (Kobiton)</li>
-            </ul>
-            <div class="screenshot-dropdowns">
-              <select class="form-control" @change="changeDevice">
-                <option
-                  :key="device.device"
-                  v-for="(device, index) in otherDevices"
-                  :value="index"
-                  >{{ device.device }}</option
-                >
-                <option value="-1">Galaxy S10e</option>
-              </select>
-
-              <select class="form-control" v-model="screenshotSelected">
-                <option
-                  :key="screenshot.name"
-                  v-for="(screenshot, index) in screenshots"
-                  :value="index"
-                  >{{ screenshot.name }}</option
-                >
-              </select>
-            </div>
-            <div class="image-wrapper">
-              <img
-                class="device-screenshot"
-                :src="screenshots[screenshotSelected].path"
-                :alt="screenshots[screenshotSelected].name"
-              />
-              <figcaption>
-                {{ screenshots[screenshotSelected].name }}
-              </figcaption>
-              <div class="screenshot-actions">
-                <button
-                  type="button"
-                  class="btn btn-primary"
-                  @click="screenshotSelected--"
-                  :disabled="screenshotSelected === 0"
-                >
-                  Anterior</button
-                ><button
-                  type="button"
-                  class="btn btn-primary"
-                  @click="screenshotSelected++"
-                  :disabled="screenshotSelected + 1 >= screenshots.length"
-                >
-                  Siguiente
-                </button>
-              </div>
-            </div>
-          </card>
-        </div>
-      </div>
       <div class="row mt-5">
         <div class="col-12 col-md-8 offset-md-2">
           <card class="content">
             <div slot="header" class="row align-items-center">
               <div class="col">
-                <h1>Casos Particulares</h1>
+                <h1>Arquitectura de software</h1>
               </div>
             </div>
             <p>
-              Durante las pruebas en estos dispositivos únicamente encontramos
-              problemas de visualización en el Google Pixel C en modo landscape
-              en el que algunos botones tienen overflow de texto debido a que
-              los botones tienen un tamaño de alto fijo. Esto se puede ven en el
-              archivo custom slide big text.xml en donde definen el tamaño fijo
-              tanto del ancho como del alto.
+              La aplicación utiliza un patrón MVC (modelo, vista, controlador).
+              El modelo en la aplicación correspondiente a la lógica del proceso
+              radica en las librerías nativas que invoca la aplicación para
+              retransmitir el tráfico, realizar procesos de cifrado y mantener
+              el anonimato. El controlador en este patrón corresponde a la capa
+              de Android, pues la aplicación actúa como mediador para la
+              recolección de datos y su transmisión en la red Tor y comunicar el
+              estado de la comunicación y la configuración de la red.
+              Finalmente, la capa de la vista en la aplicación muestra de manera
+              visual el estado de la conexión, opciones para configurar los
+              puentes de retransmisión y seleccionar las aplicaciones cuyo
+              tráfico va a ser cubierto por el servicio.
             </p>
-
-            <vue-embed-gist gist-id="67f65dd8c5e432ca719a95bc856ad01e" />
+            <p>
+              Por otro lado, la aplicación utiliza diferentes patrones de
+              instanciación en el controlador como <b>Singleton</b>, para evitar
+              instanciar más de una vez un componente del servicio para invocar
+              las librerías externas o instanciar más de una vez un componente
+              del sistema. Por ejemplo, en el momento de invocar el Package
+              Manager para utilizar las librerías externas para retransmitir el
+              tráfico, se obtiene la referencia del objeto que posee el sistema.
+              Asimismo, otro patrón que se aplica a lo largo del código de la
+              aplicación son decoradores para suprimir algunas advertencias del
+              sistema o sobreescribir métodos de los objetos. Por ejemplo, las
+              actividades <b>BridgeWizard</b>, <b>OnBoarding</b> y
+              <b>Moat</b> heredan la actividad AppManager. El estilo de la
+              aplicación se enfoca en el paradigma de Cliente-Servidor, puesto
+              que, la aplicación móvil actúa como cliente para el envío de datos
+              a la red de servidores Tor para redirigir de manera segura el
+              tráfico de la capa de aplicación del dispositivo Android al igual
+              para recibir las respuestas.
+            </p>
 
             <p>
-              Adicionalmente, el dropdown de selección de la zona que a pesar de
-              tener suficiente espacio, abarca una pequeña zona y no muestra los
-              nombres completos.
+              Otro patrón que encontramos es el adaptador el cual es
+              implementado para utilizar como interfaces la clase encargada de
+              cargar los backup, el listado de cookies de clientes configuradas
+              y el listado de servicios de onion agregados. Estos adaptadores
+              están siendo utilizados directamente por los componentes de vista
+              como Diálogos y Actividades.
             </p>
-            <div class="image-wrapper">
+            <figure class="figure">
               <img
                 class="device-screenshot"
-                src="img/screenshots/other_devices/pixel_c2.PNG"
-                alt="Pixel C style error"
+                src="img/screenshots/decoratorHeritance.png"
+                alt="Decorator Heritance"
               />
-              <figcaption>
-                Google Pixel C Pantalla inicial paso 4 con errores de estilos en
-                el botón en orientación landscape
+              <figcaption class="figure-caption text-center">
+                Uso del patrón de decoradores utilizando etiquetas y mecanismo
+                de herencia para evitar reutilizar código.
               </figcaption>
-            </div>
+            </figure>
           </card>
         </div>
       </div>
@@ -122,33 +71,4 @@
   </div>
 </template>
 <script>
-import VueEmbedGist from "vue-embed-gist";
-import screenshots from "@/data/screenshots.json";
-export default {
-  components: {
-    VueEmbedGist
-  },
-  data() {
-    return {
-      mainDevices: screenshots.screenshots,
-      otherDevices: screenshots.otherDevices,
-      deviceSelected: 0,
-      screenshotSelected: 0,
-      loading: false
-    };
-  },
-  methods: {
-    changeDevice: function(ev) {
-      this.deviceSelected = ev.target.value;
-      this.screenshotSelected = 0;
-    }
-  },
-  computed: {
-    screenshots: function() {
-      return this.deviceSelected < 0
-        ? this.mainDevices
-        : this.otherDevices[this.deviceSelected].screenshots;
-    }
-  }
-};
 </script>

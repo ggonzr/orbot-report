@@ -96,9 +96,17 @@
               archivo custom slide big text.xml en donde definen el tamaño fijo
               tanto del ancho como del alto.
             </p>
-
-            <vue-embed-gist gist-id="67f65dd8c5e432ca719a95bc856ad01e" />
-
+            <figure>
+              <img src="img/code/button.png" alt="button snippet" />
+              <figcaption>
+                Fragmento de código obtenido del siguiente
+                <a
+                  href="https://github.com/guardianproject/orbot/blob/a608a964964506e52878ef55e5b500fd54af90fb/app/src/main/res/layout/custom_slide_big_text.xml"
+                >
+                  archivo
+                </a>
+              </figcaption>
+            </figure>
             <p>
               Adicionalmente, el dropdown de selección de la zona que a pesar de
               tener suficiente espacio, abarca una pequeña zona y no muestra los
