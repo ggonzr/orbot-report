@@ -12,7 +12,7 @@
           actividades que posee la aplicación nos enfocaremos en determinar el
           comportamiento de la UI de la actividad principal cuando se intenta
           renderizar los diversos elementos al tiempo. Para ello
-          experimentaremos girando rápidamente la pantalla para desplegar los
+          experimentaremos girando inmediatamente la pantalla para desplegar los
           elementos de manera vertical u horizontal. El resultado de esta prueba
           muestra que la aplicación posee un bug pues el servicio se desactiva
           continuamente. A continuación, presentamos el desempeño de esta
