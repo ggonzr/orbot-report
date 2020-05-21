@@ -60,12 +60,11 @@
               </div>
             </div>
             <p>
-              La instalación de la aplicación es bastante rápida así como su
-              desinstalación. No encontramos ningún tipo de error en estos
-              procesos al repetirse numerosas veces. Al reinstalar la
-              aplicacion, esta no conserva las configuraciones y preferencias
-              guardadas previamente y se vuelve o mostrar el landing page con
-              las indicaciones de como utilizar la aplicaciones.
+              La instalación de la aplicación toma un tiempo de instalación del paquete de 10s 
+              y un tiempo de desinstalación de 1.5s. No encontramos ningún tipo de error en estos
+              procesos al repetirse numerosas veces. Al reinstalar la aplicacion, esta no conserva
+              las configuraciones y preferencias guardadas previamente y se vuelve o mostrar el landing page
+              con las indicaciones de como utilizar la aplicaciones.
             </p>
           </card>
         </div>

@@ -79,9 +79,9 @@
         <p>
           Finalmente, encontramos que una de las vistas que más frames renderiza
           y que más impacto tiene sobre el GPU es la vista de selección de
-          aplicaciones para la VPN. En esta se puede ver como crecen rápidamente
-          las gráficas de perfil de renderizado gráfico al hacer scroll
-          rápidamente sobre las aplicaciones.
+          aplicaciones para la VPN.  En esta se puede ver como crecen en menos de 
+          15s las gráficas de perfil de renderizado gráfico al hacer un scroll inmediato
+          sobre las aplicaciones.
         </p>
         <div class="landing-overdraw">
           <img src="img/gpu/apps1.jpg" alt="apps1" />
