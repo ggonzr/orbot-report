@@ -27,10 +27,11 @@
               espera son el único indicativo de que algo puede estar saliendo
               mal. Sumado a esto, encontramos que al desactivar el modo avión
               para permitir el acceso a la aplicación, ya no es posible
-              conectarse a los servicios de tor. La imagen de la conexión activa 
-              de Tor en la actividad principal <b>OrbotMainActivity</b> permanece intacto
-              y solo se actualiza cuando se clickea para deterner el servicio o reiniciarlo
-              por click del usuario en los siguientes métodos.
+              conectarse a los servicios de tor. La imagen de la conexión activa
+              de Tor en la actividad principal
+              <b>OrbotMainActivity</b> permanece intacto y solo se actualiza
+              cuando se clickea para deterner el servicio o reiniciarlo por
+              click del usuario en los siguientes métodos.
             </p>
             <figure class="figure">
               <img
@@ -39,7 +40,8 @@
                 alt="Image View 1"
               />
               <figcaption class="figure-caption text-center">
-                Indicador de conexión con la imagen principal y respuesta a eventos
+                Indicador de conexión con la imagen principal y respuesta a
+                eventos
               </figcaption>
             </figure>
             <p>
@@ -53,11 +55,12 @@
               modificaciones que pueden afectar la conexión.
             </p>
             <p>
-              La validación del estado de la conexión en el telefono es inexistente
-              puesto que nunca se solicita en el componente visual verificar si hay conexión 
-              a internet para notificar al usuario. Esto lo podemos evidenciar en la actividad 
-              principal debido a que nunca se invoca el <b>ConnectivityManager</b>, ni siquiera
-              se importa el paquete
+              La validación del estado de la conexión en el telefono es
+              inexistente puesto que nunca se solicita en el componente visual
+              verificar si hay conexión a internet para notificar al usuario.
+              Esto lo podemos evidenciar en la actividad principal debido a que
+              nunca se invoca el <b>ConnectivityManager</b>, ni siquiera se
+              importa el paquete
             </p>
             <figure class="figure">
               <img
@@ -66,7 +69,8 @@
                 alt="Image View 2"
               />
               <figcaption class="figure-caption text-center">
-                Paquetes importados del core de android en <b>OrbotMainActivity</b>
+                Paquetes importados del core de android en
+                <b>OrbotMainActivity</b>
               </figcaption>
             </figure>
           </card>
@@ -177,6 +181,44 @@
                   >Acceso a internet de vuelta</a
                 >
               </div>
+            </div>
+
+            <p>
+              Revisando la implementación de la actividad principal de orbot
+              encontramos que hay un método encargado de recibir los mensajes de
+              estado de la conexión que retorna a librería externa de tor al
+              intentar conectar con los servicios. En este encontramos que al
+              MainActivity evalúa únicamente 4 condiciones entre las cuales no
+              se encuentra ningún estado de error de conectividad. Este podría
+              ser motivo por el cual la aplicación persiste en el estado de
+              “Staring” que corresponde a los tres puntos que aparecen en el
+              botón. En la sección de Bridges, también encontramos que algunos
+              de esos puentes retornan mensajes de error eventualmente y en
+              general puede que estos errores no estén conectados con la
+              actividad principal para informar al usuario que ha fallado la
+              conexión con el puente y por eso no se pudo realizar la conexión a
+              los servicios de Tor.
+            </p>
+            <figure>
+              <img src="img/code/eventual.png" alt="eventual" />
+              <figcaption>
+                Fragmento de código obtenido del siguiente
+                <a
+                  href="https://github.com/guardianproject/orbot/blob/a608a964964506e52878ef55e5b500fd54af90fb/app/src/main/java/org/torproject/android/OrbotMainActivity.java"
+                >
+                  archivo
+                </a>
+              </figcaption>
+            </figure>
+            <div class="screenshot">
+              <img
+                src="img/eventual_conn/bridge_failed.jpg"
+                alt="Fallo bride"
+              />
+              <figcaption>
+                Mensaje de error en la pantalla de puentes al intentar conectar
+                con un puente. Este mensaje no siempre aparece.
+              </figcaption>
             </div>
           </card>
         </div>

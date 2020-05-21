@@ -5,6 +5,16 @@
     justify-content: space-between;
     align-items: center;
   }
+  .screenshot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 40%;
+    }
+  }
   .gif-screenshot {
     padding: 10px;
     display: flex;
