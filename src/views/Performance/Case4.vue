@@ -57,9 +57,13 @@
           veces, la aplicación cierra inesperadamente.
         </p>
         <img src="img/performance/memory4.png" alt="cpu1" />
-        <p></p>     
-        <figure>  
-          <img src="img/screenshots/doLayoutMainAct.png" alt="main activity snippet"/> 
+        <p></p>
+        <figure>
+          <img
+            class="code"
+            src="img/screenshots/doLayoutMainAct.png"
+            alt="main activity snippet"
+          />
           <figcaption>
             Fragmento de código obtenido del siguiente
             <a
@@ -68,7 +72,7 @@
             >
               archivo
             </a>
-            </figcaption>              
+          </figcaption>
         </figure>
       </card>
     </div>
