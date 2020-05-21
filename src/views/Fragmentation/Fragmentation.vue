@@ -56,6 +56,9 @@
                 :src="screenshots[screenshotSelected].path"
                 :alt="screenshots[screenshotSelected].name"
               />
+              <figcaption>
+                {{ screenshots[screenshotSelected].name }}
+              </figcaption>
               <div class="screenshot-actions">
                 <button
                   type="button"
@@ -107,6 +110,10 @@
                 src="img/screenshots/other_devices/pixel_c2.PNG"
                 alt="Pixel C style error"
               />
+              <figcaption>
+                Google Pixel C Pantalla inicial paso 4 con errores de estilos en
+                el botón en orientación landscape
+              </figcaption>
             </div>
           </card>
         </div>

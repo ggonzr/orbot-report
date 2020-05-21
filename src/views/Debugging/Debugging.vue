@@ -34,6 +34,10 @@
                 src="img/screenshots/infinit_loading.jpg"
                 alt="Loading infinito en varios dispocitivos"
               />
+              <figcaption>
+                Pantalla principal con loading infinito causado por conectividad
+                eventual o errores en la configuración.
+              </figcaption>
             </div>
             <p>
               Otro problema de interfaz de usuario que encontramos fue la
@@ -49,6 +53,7 @@
                 src="img/screenshots/log_screen.jpg"
                 alt="Pantalla de log implementada en un drawer de material"
               />
+              <figcaption>Drawer con logs informativos y de debug</figcaption>
             </div>
           </card>
         </div>
@@ -108,6 +113,13 @@
               <code
                 >java.lang.IllegalStateException: Drag shadow dimensions must be
                 positive</code
+              >
+            </p>
+            <p>
+              Este error fue reportado por nuestro equipo de trabajo como un
+              issue de la aplicación en el repositorio de orbot.
+              <a href="https://github.com/guardianproject/orbot/issues/342"
+                >https://github.com/guardianproject/orbot/issues/342</a
               >
             </p>
             <p>

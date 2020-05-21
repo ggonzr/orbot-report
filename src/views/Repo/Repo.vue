@@ -85,6 +85,10 @@
                   src="img/screenshots/dashboard.PNG"
                   alt="dashboard"
                 />
+                <figcaption>
+                  Dashboard con información de los contribuidores, commits y la
+                  frecuencia de cambios del repositorio.
+                </figcaption>
               </div>
               <div class="slide fluid-agile-slide">
                 <img
@@ -92,6 +96,10 @@
                   src="img/screenshots/dashboard2.PNG"
                   alt="dashboard"
                 />
+                <figcaption>
+                  Dashboard con información de los issues reportados y la
+                  capacidad de la comunidad para solución de issues.
+                </figcaption>
               </div>
               <template slot="prevButton"
                 ><i class="fas fa-chevron-left"></i

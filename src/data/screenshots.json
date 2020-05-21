@@ -1,7 +1,7 @@
 {
   "screenshots": [
     {
-      "name": "Pantalla principal",
+      "name": "Pantalla principal con servicios de Tor activos",
       "path": "img/screenshots/main_screen.jpg"
     },
     {
@@ -21,15 +21,15 @@
       "path": "img/screenshots/landing_screen4.jpg"
     },
     {
-      "name": "Pantalla acerca de",
+      "name": "Pop up con informacion acerca de la aplicación",
       "path": "img/screenshots/about_screen.jpg"
     },
     {
-      "name": "Drawer de logs",
+      "name": "Drawer con logs informativos y de debug",
       "path": "img/screenshots/log_screen.jpg"
     },
     {
-      "name": "Pantalla principal apagada",
+      "name": "Pantalla principal con servicios apagados",
       "path": "img/screenshots/main_screen_off.jpg"
     },
     {
@@ -37,11 +37,11 @@
       "path": "img/screenshots/setting_screen.jpg"
     },
     {
-      "name": "Pantalla seleccion de apps para vpn",
+      "name": "Pantalla seleccion de apps para la VPN",
       "path": "img/screenshots/vpn_apps_screen.jpg"
     },
     {
-      "name": "Tor Check online",
+      "name": "Tor Check online usado para verificar conexión",
       "path": "img/screenshots/tor_check.jpg"
     }
   ],
@@ -50,11 +50,11 @@
       "device": "Samsung Galaxy Tap",
       "screenshots": [
         {
-          "name": "Samsung Galaxy Tap Landscape",
+          "name": "Samsung Galaxy Tap Pantalla principal en orientación landscape",
           "path": "img/screenshots/other_devices/galaxy_tap_landscape.PNG"
         },
         {
-          "name": "Samsung Galaxy Tap",
+          "name": "Samsung Galaxy Tap Pantalla principal en orientación portrait",
           "path": "img/screenshots/other_devices/galaxy_tap.PNG"
         }
       ]
@@ -63,20 +63,16 @@
       "device": "Google Pixel C",
       "screenshots": [
         {
-          "name": "Google Pixel C screen1",
+          "name": "Google Pixel C Pantalla inicial paso 3 con errores de estilos en el botón en orientación landscape",
           "path": "img/screenshots/other_devices/pixel_c.PNG"
         },
         {
-          "name": "Google Pixel C screen2",
+          "name": "Google Pixel C Pantalla inicial paso 4 con errores de estilos en el botón en orientación landscape",
           "path": "img/screenshots/other_devices/pixel_c2.PNG"
         },
         {
-          "name": "Google Pixel C screen3",
+          "name": "Google Pixel C Pantalla principal en orientación landscape",
           "path": "img/screenshots/other_devices/pixel_c3.PNG"
-        },
-        {
-          "name": "Google Pixel c",
-          "path": "img/screenshots/other_devices/pixel_c.PNG"
         }
       ]
     },
@@ -84,7 +80,7 @@
       "device": "Google Pixel 3 XL",
       "screenshots": [
         {
-          "name": "Google Pixel 3 XL",
+          "name": "Google Pixel 3 XL Pantalla principal en orientación portrait",
           "path": "img/screenshots/other_devices/pixel_3xl.PNG"
         }
       ]

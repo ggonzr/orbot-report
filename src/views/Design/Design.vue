@@ -41,6 +41,9 @@
               src="img/design/components.jpg"
               alt="Componentes de material"
             />
+            <figcaption>
+              Componentes de material design extraídos de la aplicación.
+            </figcaption>
             <p>
               Esta imagen muestra algunos de los componentes más distinguibles
               de la aplicación que notoriamente caracterizan a una aplicación
@@ -48,6 +51,24 @@
               del layout basico, sliders, dropdowns, checkbox, outlined button,
               entre otros.
             </p>
+          </card>
+        </div>
+        <div class="col-12 col-md-10 offset-md-1 col-xl-8 offset-md-2 mt-5">
+          <card class="content">
+            <div slot="header" class="row align-items-center">
+              <div class="col">
+                <h1>Flujos de la aplicación</h1>
+              </div>
+            </div>
+
+            <iframe
+              allowfullscreen
+              frameborder="0"
+              width="100%"
+              height="720"
+              src="https://app.lucidchart.com/documents/embeddedchart/68f096d8-7ca8-4af4-be3f-f8ac16a1da69"
+              id="Mxv0UG0Tg9C9"
+            ></iframe>
           </card>
         </div>
       </div>

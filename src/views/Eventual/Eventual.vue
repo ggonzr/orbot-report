@@ -98,12 +98,14 @@
             </div>
             <div class="gifs-section">
               <div class="gif-screenshot">
-                <p v-if="gifSelected === 0">Normal</p>
                 <img
                   src="img/eventual_conn/normal.gif "
                   alt="Estado normal"
                   :class="gifSelected !== 0 ? 'inactive' : ''"
                 />
+                <figcaption v-if="gifSelected === 0">
+                  Ejecución en condiciones normales con acceso a Internet
+                </figcaption>
                 <a
                   v-if="gifSelected !== 0"
                   class="btn btn-sm btn-secondary"
@@ -112,12 +114,15 @@
                 >
               </div>
               <div class="gif-screenshot">
-                <p v-if="gifSelected === 1">Sin acceso a internet</p>
                 <img
                   src="img/eventual_conn/airplane_mode.gif"
                   alt="Modo Avion"
                   :class="gifSelected !== 1 ? 'inactive' : ''"
                 />
+                <figcaption v-if="gifSelected === 1">
+                  Intento de conexión a los servicios de tor sin acceso a
+                  Internet.
+                </figcaption>
                 <a
                   v-if="gifSelected !== 1"
                   class="btn btn-sm btn-secondary"
@@ -126,12 +131,15 @@
                 >
               </div>
               <div class="gif-screenshot">
-                <p v-if="gifSelected === 2">Acceso a internet de vuelta</p>
                 <img
                   src="img/eventual_conn/internet_back.gif"
                   alt="Internet de vuelta"
                   :class="gifSelected !== 2 ? 'inactive' : ''"
                 />
+                <figcaption v-if="gifSelected === 2">
+                  Intento de conexión a los servicios de tor reactivando el
+                  acceso a Internet
+                </figcaption>
                 <a
                   v-if="gifSelected !== 2"
                   class="btn btn-sm btn-secondary"
