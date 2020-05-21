@@ -56,24 +56,7 @@
           alrededor de los 200MB. Asimismo, después de girar la pantalla varias
           veces, la aplicación cierra inesperadamente.
         </p>
-        <img src="img/performance/memory4.png" alt="cpu1" />
-        <p></p>
-        <figure id="doLayout">
-          <img
-            class="code"
-            src="img/screenshots/doLayoutMainAct.png"
-            alt="main activity snippet"
-          />
-          <figcaption>
-            Fragmento de código obtenido del siguiente
-            <a
-              href="https://github.com/guardianproject/orbot/blob/a608a964964506e52878ef55e5b500fd54af90fb/app/src/main/java/org/torproject/android/OrbotMainActivity.java"
-              target="_blank"
-            >
-              archivo
-            </a>
-          </figcaption>
-        </figure>
+        <img src="img/performance/memory4.png" alt="cpu1" />                
       </card>
     </div>
     <div class="col-12 col-md-8 offset-md-2 mt-5">
@@ -93,7 +76,7 @@
         </p>
         <img src="img/performance/network4.png" alt="cpu1" />
       </card>
-    </div>
+    </div>    
     <div class="col-12 col-md-8 offset-md-2 mt-5">
       <card class="content">
         <div slot="header" class="row align-items-center">
@@ -109,6 +92,43 @@
           bajo.
         </p>
         <img src="img/performance/energy4.png" alt="cpu1" />
+      </card>
+    </div>
+    <div class="col-12 col-md-8 offset-md-2 mt-5">
+      <card class="content">
+        <div slot="header" class="row align-items-center">
+          <div class="col">
+            <h1>
+              Código
+            </h1>
+          </div>
+        </div>
+        <p>
+          En esta sección destaca el método <b>doLayout()</b> quien se encarga de pintar 
+          la actividad principal. Este método utiliza <b>findViewById()</b> para obtener cada uno 
+          de los elementos gráficos entre los que se encuentran <b>Toolbars, Drawers, ImageView</b>
+          y por supuesto <b>Labels</b> y <b>Button</b>. Por el continuo uso del método <b>findViewById()</b>
+          el rendimiento disminuye y esto se observa en el aumento de memoria que expusimos con anterioridad.
+          Sumado a lo anterior, este método se ejecuta en <b>onResume()</b> lo que ocasiona que al girar 
+          continuamente la pantalla inmediatamente entre la posición vertical y horizontal, 
+          se renderizen los elementos en cada momento hasta que la aplicación se crashea.
+        </p>
+        <figure>
+          <img
+            class="code"
+            src="img/screenshots/doLayout.png"
+            alt="main activity snippet"
+          />
+          <figcaption>
+            Fragmento de código obtenido del siguiente
+            <a
+              href="https://github.com/guardianproject/orbot/blob/a608a964964506e52878ef55e5b500fd54af90fb/app/src/main/java/org/torproject/android/OrbotMainActivity.java"
+              target="_blank"
+            >
+              archivo
+            </a>
+          </figcaption>
+        </figure>
       </card>
     </div>
   </div>
