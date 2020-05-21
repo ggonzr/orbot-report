@@ -60,6 +60,17 @@
           y este se establezca alrededor de 135MB.
         </p>
         <img src="img/performance/memory1.png" alt="cpu1" />
+        <p></p>        
+        <img src="img/screenshots/performance1.png" alt="main activity snippet"/> 
+        <figcaption>
+            Fragmento de código obtenido del siguiente
+            <a
+              href="https://github.com/guardianproject/orbot/blob/0a3a4f7ee943e05caa0d5417ed802d2a4e028af3/app/src/main/java/org/torproject/android/ui/onboarding/OnboardingActivity.java"
+              target="_blank"
+            >
+              archivo
+            </a>
+        </figcaption>                      
       </card>
     </div>
     <div class="col-12 col-md-8 offset-md-2 mt-5">
