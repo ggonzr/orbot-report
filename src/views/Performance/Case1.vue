@@ -59,22 +59,7 @@
           Este proceso implica que la aplicación duplique su consumo de memoria
           y este se establezca alrededor de 135MB.
         </p>
-        <img src="img/performance/memory1.png" alt="cpu1" />
-        <p></p>
-        <img
-          class="code"
-          src="img/screenshots/performance1.png"
-          alt="main activity snippet"
-        />
-        <figcaption>
-          Fragmento de código obtenido del siguiente
-          <a
-            href="https://github.com/guardianproject/orbot/blob/0a3a4f7ee943e05caa0d5417ed802d2a4e028af3/app/src/main/java/org/torproject/android/ui/onboarding/OnboardingActivity.java"
-            target="_blank"
-          >
-            archivo
-          </a>
-        </figcaption>
+        <img src="img/performance/memory1.png" alt="cpu1" />                
       </card>
     </div>
     <div class="col-12 col-md-8 offset-md-2 mt-5">
@@ -118,12 +103,69 @@
         <img src="img/performance/energy1.png" alt="cpu1" />
       </card>
     </div>
+    <div class="col-12 col-md-8 offset-md-2 mt-5">
+      <card class="content">
+        <div slot="header" class="row align-items-center">
+          <div class="col">
+            <h1>
+              Código
+            </h1>
+          </div>
+        </div>
+        <p>
+          El siguiente fragmento de código muestra la sección de la 
+          aplicación que invoca la actividad principal en el
+          momento en que el usuario culmina la introducción (<b>OnboardingActivity</b>).
+          La actividad principal muestra el estado de ejecución del servicio <b>Orbot</b> al 
+          igual que la configuración del tunel y las aplicaciones sobre las 
+          cuales se va a cubir el trafico. Debido al cambio de actividad y los componentes 
+          que la actividad principal necesita, aumenta el consumo de CPU y el uso de memoria.
+        </p>
+        <p>
+          En la primera clase de la imagen podemos observar la actividad <b>OnBoarding</b>
+          y el método <b>onDonePressed</b> que invoca la actividad principal en el momento en que
+          el usuario culmina la introducción. Asimismo, este método almacena en las preferencias
+          que yá el usuario observó la introducción para que en accesos posteriores se redirija a
+          la actividad principal.
+        </p>
+        <p>
+          Ya en la actividad principal, el metodo recupera del almacenamiento local las variables
+          de la actividad y procede a renderizar la vista usando el método
+          <a href="" @click="changeView">doLayout()</a> quien dibuja los elementos de la actividad entre
+          los que se encuentra varios pickers, una animación principal para indicar si la conexión se encuentra
+          en marcha o apagada y los labels que indican al usuario la velocidad de subida y de bajada. Clickeando
+          el enlace y bajando un poco en el articulo se encuentra el método en mención.
+        </p>
+        <img
+          class="code"
+          src="img/screenshots/performance1.png"
+          alt="main activity snippet"
+        />
+        <figcaption>
+          Fragmento de código obtenido del siguiente
+          <a
+            href="https://github.com/guardianproject/orbot/blob/0a3a4f7ee943e05caa0d5417ed802d2a4e028af3/app/src/main/java/org/torproject/android/ui/onboarding/OnboardingActivity.java"
+            target="_blank"
+          >
+            archivo
+          </a>
+        </figcaption>
+      </card>
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
-</script>
-
+export default {
+    props: ["callback"],
+    methods: {
+      changeView: function (ev) {
+        ev.preventDefault();        
+        this.callback(5);
+        window.scrollTo(0,0)
+      }
+    }    
+};
+</script>  
 <style>
 </style>
