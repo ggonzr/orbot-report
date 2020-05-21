@@ -86,8 +86,22 @@
         <sidebar-item
           :link="{
             name: 'Seguridad',            
-            icon: 'fas fa-user-secret',
+            icon: 'fas fa-user-secret text-black',
             path: '/security'
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Arquitectura de Software',            
+            icon: 'fas fa-drafting-compass text-yellow',
+            path: '/architecture'
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Local Storage & Cache',            
+            icon: 'fas fa-cookie-bite text-indigo',
+            path: '/storage'
           }"
         />
         <sidebar-item
