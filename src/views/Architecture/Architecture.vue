@@ -44,17 +44,17 @@
               clientes configuradas y el listado de servicios de onion agregados. Estos adaptadores 
               están siendo utilizados directamente por los componentes de vista como Diálogos y Actividades.
             </p>
-            <div class="image-wrapper">
+            <figure class="figure">
               <img
                 class="device-screenshot"
                 src="img/screenshots/decoratorHeritance.png"
                 alt="Decorator Heritance"
               />
-              <figcaption>
+              <figcaption class="figure-caption text-center">
                 Uso del patrón de decoradores utilizando etiquetas y mecanismo de herencia
                 para evitar reutilizar código.
               </figcaption>
-            </div>
+            </figure>
           </card>
         </div>
       </div>
