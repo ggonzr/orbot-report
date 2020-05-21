@@ -53,7 +53,7 @@
               están siendo utilizados directamente por los componentes de vista
               como Diálogos y Actividades.
             </p>
-            <figure class="figure">
+            <figure>
               <img
                 class="device-screenshot"
                 src="img/screenshots/decoratorHeritance.png"
