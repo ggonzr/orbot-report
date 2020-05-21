@@ -24,7 +24,13 @@
               hace intents al seleccionar la opción de compartir o escanear un
               código QR para crear un puente de conexión.
             </p>
-            <vue-embed-gist gist-id="54afe1c46bad7def6f89304d0447b1de" />
+            <figure class="figure">
+              <img
+                class="device-screenshot"
+                src="img/screenshots/integration1.png"
+                alt="Integration 1"
+              />              
+            </figure>
             <p>
               Es curioso que utilicen esta función en específico para escanear
               códigos QR en lugar de utilizar la Aplicacion de camara nativa que
@@ -33,15 +39,26 @@
               intent un payload que utilizan para enviar el action filter que
               desean generar.
             </p>
-
-            <vue-embed-gist gist-id="5485e9fd861300bf736e0f0bfde55fc4" />
+            <figure class="figure">
+              <img
+                class="device-screenshot"
+                src="img/screenshots/integration2.png"
+                alt="Integration 2"
+              />              
+            </figure>
             <p>
               Asimismo, en el archivo manifest.xml incluyen el tag
               <b>intent-filter</b>
               necesario para que los dispositivos dirijan los códigos QR
               escaneados a la aplicación a la aplicación de Orbot.
             </p>
-            <vue-embed-gist gist-id="b4307ccb7c4e3e6cdab0d126e217de83" />
+            <figure class="figure">
+              <img
+                class="device-screenshot"
+                src="img/screenshots/integration2.png"
+                alt="Integration 2"
+              />              
+            </figure>            
           </card>
         </div>
       </div>
@@ -49,7 +66,6 @@
   </div>
 </template>
 <script>
-import VueEmbedGist from "vue-embed-gist";
 import AppCard from "@/components/AppCard";
 
 export default {
@@ -68,9 +84,8 @@ export default {
       }
     };
   },
-  components: {
-    VueEmbedGist,
-    AppCard
+  components: {    
+    AppCard,
   }
 };
 </script> 
