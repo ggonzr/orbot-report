@@ -16,9 +16,9 @@
             <div class="content">
               <p>
                 A continuación se realiza una descripción de las funcionalidades
-                que poseen las principales aplicaciones competidoras con Orbot.
+                que poseen las principales aplicaciones competidoras de Orbot.
                 Posteriormente se menciona el factor diferenciador de Orbot que
-                hacer que destaque sobre sus rivales.
+                hace que destaque sobre sus rivales.
               </p>
               <ul>
                 <li>
