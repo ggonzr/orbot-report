@@ -71,6 +71,73 @@
             ></iframe>
           </card>
         </div>
+        <div class="col-12 col-md-10 offset-md-1 col-xl-8 offset-md-2 mt-5">
+          <card class="content">
+            <div slot="header" class="row align-items-center">
+              <div class="col">
+                <h1>Análisis</h1>
+              </div>
+            </div>
+
+            <p>
+              Haciendo un análisis general de la aplicación encontramos que no
+              es consistente el uso de colores de la aplicación. Tanto la
+              pantalla de inicio como la principal, utilizan colores que hacen
+              alusión a los colores principales del navegador Tor, lo que tiene
+              bastante sentido al tratarse de una aplicación que provee a sus
+              usuarios funcionalidades parecidas por medio de un proxy. Si bien
+              identificamos una paleta de colores en la pantalla principal, esta
+              no se mantiene en las demás vistas. Como se puede ver en las
+              siguientes capturas, el color de los header en cada una de estas,
+              no es el mismo utilizado en la vista principal.
+            </p>
+            <div class="headers">
+              <img
+                src="/img/screenshots/headers/header_main.jpg"
+                alt="header pantalla de inicio"
+              />
+              <figcaption>Header de la pantalla principal</figcaption>
+              <img
+                src="/img/screenshots/headers/header_setting.jpg"
+                alt="header pantalla de configuracion"
+              />
+              <figcaption>
+                Header de la pantalla de configuracion
+              </figcaption>
+              <img
+                src="/img/screenshots/headers/header_vpn.jpg"
+                alt="header vpn"
+              />
+              <figcaption>
+                Header de la pantalla de seleccion de apps para VPN
+              </figcaption>
+            </div>
+            <p>
+              Al utilizar componentes de material design, el único elemento
+              visual que le da personalidad a la aplicación es el botón de
+              iniciar los servicios de Tor, el cual es suficientemente grande y
+              distinguible. Aparte de este botón, los otros componentes son
+              fácilmente identificables por su amplio uso en las aplicaciones de
+              Android. Esto no resulta ser necesariamente un aspecto negativo ya
+              que estos componentes funcionan muy bien y el estilo de se
+              mantiene en toda la aplicación.
+            </p>
+            <p>
+              Como se muestra en los flujos de la aplicación, hay algunos
+              pantallas que muestran listas de elementos o configuraciones. En
+              ninguna de estas vistas se utilizan mensajes para notificar al
+              usuario que está viendo una lista vacía cuando no hay ningún
+              elemento.
+            </p>
+            <p>
+              Finalmente, el último aspecto que consideramos se debe resaltar es
+              la falta de mensaje y pantallas informativas relacionadas con la
+              configuración, ya que no resulta fácil entender de dónde provienen
+              estas propiedades a configurar ni las funcionalidades que se están
+              configurando.
+            </p>
+          </card>
+        </div>
       </div>
     </div>
   </div>
