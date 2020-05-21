@@ -45,7 +45,13 @@
               código de los servicios de Orbot que ejecuta la funcionalidad
               mencionada.
             </p>
-            <vue-embed-gist gist-id="84e94475af0987a89fa43ebe9eafda66" />
+            <figure class="figure">
+              <img
+                class="device-screenshot"
+                src="img/screenshots/security1.png"
+                alt="Security Gist 1"
+              />
+            </figure>
             <p>
               Por otro lado, el comando para ejecutarse atraviesa diferentes
               capas en la aplicación. La clase <b>OrbotService</b> extiende las
@@ -58,14 +64,25 @@
               seguridad. A continuación se incluye la invocación del metodo
               nativo de la clase <b>OrbotVpnManager</b>
             </p>
-
-            <vue-embed-gist gist-id="2baed64150ddd418e4989fb5ab77fb9c" />
+            <figure class="figure">
+              <img
+                class="device-screenshot"
+                src="img/screenshots/security2.png"
+                alt="Security Gist 2"
+              />
+            </figure>
             <p>
               Para culminar, detallamos el manejo de la clase
               <b>Tune2Socks</b> que invoca directamente la libreria escrita en C
               utilizando el JNI
             </p>
-            <vue-embed-gist gist-id="402d9374d6e4e2a51d7ee60d0cbe9bf7" />
+            <figure class="figure">
+              <img
+                class="device-screenshot"
+                src="img/screenshots/security2.png"
+                alt="Security Gist 2"
+              />
+            </figure>
           </card>
         </div>
       </div>
@@ -73,10 +90,4 @@
   </div>
 </template>
 <script>
-import VueEmbedGist from "vue-embed-gist";
-export default {
-  components: {
-    VueEmbedGist
-  }
-};
 </script> 
