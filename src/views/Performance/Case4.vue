@@ -57,6 +57,19 @@
           veces, la aplicación cierra inesperadamente.
         </p>
         <img src="img/performance/memory4.png" alt="cpu1" />
+        <p></p>     
+        <figure>  
+          <img src="img/screenshots/doLayoutMainAct.png" alt="main activity snippet"/> 
+          <figcaption>
+            Fragmento de código obtenido del siguiente
+            <a
+              href="https://github.com/guardianproject/orbot/blob/a608a964964506e52878ef55e5b500fd54af90fb/app/src/main/java/org/torproject/android/OrbotMainActivity.java"
+              target="_blank"
+            >
+              archivo
+            </a>
+            </figcaption>              
+        </figure>
       </card>
     </div>
     <div class="col-12 col-md-8 offset-md-2 mt-5">
