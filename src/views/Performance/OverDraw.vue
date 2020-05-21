@@ -117,17 +117,21 @@
           utilizando el componente GridView. Para agregar las aplicaciones a
           esta lista, utiliza el patrón adaptado, en el cual por cada aplicación
           encontrada crean una instancia del objeto ListEntry que contiene a su
-          vez un TextView, un CheckBox y un Image View.
+          vez un TextView, un CheckBox y un ImageView.
         </p>
         <figure>
           <img src="img/code/list_entry.png" alt="pulsator snippet" />
         </figure>
         <p>
-          Este puede ser el motivo de que se vean estos picos en la gráfica de
-          renderizado ya que al hacer scroll de manera hasta llegar a el final
-          de la lista, se debe renderizar un mayor número de ListEntry cada uno
-          con la imagen, título y checkbox dependiendo de la cantidad de
-          aplicaciones que se tengan instaladas en el dispositivo.
+          Se utilizar el adaptador que se puede ver en la siguiente seccion de
+          codigo ya que devuelve una vista para cada objeto en la colección de
+          aplicaciones y puede usarse con widgets de interfaz de usuario basados
+          en listas como ListView o GridView. Este puede ser el motivo de que se
+          vean estos picos en la gráfica de renderizado ya que al hacer scroll
+          de manera hasta llegar a el final de la lista, se debe renderizar un
+          mayor número de ListEntry cada uno con la imagen, título y checkbox
+          dependiendo de la cantidad de aplicaciones que se tengan instaladas en
+          el dispositivo.
         </p>
         <figure>
           <img src="img/code/grid_view.png" alt="pulsator snippet" />
