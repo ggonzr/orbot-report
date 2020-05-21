@@ -64,3 +64,14 @@ figcaption {
   max-width: 400px;
   text-align: center;
 }
+
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  img {
+    border-radius: 5px;
+    width: 100%;
+  }
+}
