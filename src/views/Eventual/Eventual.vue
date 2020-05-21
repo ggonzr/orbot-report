@@ -27,8 +27,21 @@
               espera son el único indicativo de que algo puede estar saliendo
               mal. Sumado a esto, encontramos que al desactivar el modo avión
               para permitir el acceso a la aplicación, ya no es posible
-              conectarse a los servicios de tor.
+              conectarse a los servicios de tor. La imagen de la conexión activa 
+              de Tor en la actividad principal <b>OrbotMainActivity</b> permanece intacto
+              y solo se actualiza cuando se clickea para deterner el servicio o reiniciarlo
+              por click del usuario en los siguientes métodos.
             </p>
+            <figure class="figure">
+              <img
+                class="device-screenshot"
+                src="img/screenshots/connection1.png"
+                alt="Image View 1"
+              />
+              <figcaption class="figure-caption text-center">
+                Indicador de conexión con la imagen principal y respuesta a eventos
+              </figcaption>
+            </figure>
             <p>
               Cerramos la aplicación varia veces sin obtener resultado.
               Únicamente conseguimos retomar la funcionalidad completa de la
@@ -39,6 +52,23 @@
               se debería tener en cuenta que Orbot ofrecen un conjunto de
               modificaciones que pueden afectar la conexión.
             </p>
+            <p>
+              La validación del estado de la conexión en el telefono es inexistente
+              puesto que nunca se solicita en el componente visual verificar si hay conexión 
+              a internet para notificar al usuario. Esto lo podemos evidenciar en la actividad 
+              principal debido a que nunca se invoca el <b>ConnectivityManager</b>, ni siquiera
+              se importa el paquete
+            </p>
+            <figure class="figure">
+              <img
+                class="device-screenshot"
+                src="img/screenshots/connection2.png"
+                alt="Image View 2"
+              />
+              <figcaption class="figure-caption text-center">
+                Paquetes importados del core de android en <b>OrbotMainActivity</b>
+              </figcaption>
+            </figure>
           </card>
         </div>
         <div class="col-md-10 offset-md-1 col-xl-6 offset-xl-0">
