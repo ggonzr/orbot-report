@@ -86,6 +86,39 @@
         <img src="img/performance/energy2.png" alt="cpu1" />
       </card>
     </div>
+    <div class="col-12 col-md-8 offset-md-2 mt-5">
+      <card class="content">
+        <div slot="header" class="row align-items-center">
+          <div class="col">
+            <h1>
+              Código
+            </h1>
+          </div>
+        </div>
+        <p>
+          Esta actividad <b>(BridgeWizard)</b> muestra las diversas opciones para seleccionar el tunel de conexión 
+          para enviar tráfico por la red. Debido a que es una actividad con varios <b>RadioButton</b> para 
+          seleccionar una única opción no supone un alto consumo de recursos del sistema para renderizar elementos
+          gráficos, por esta razón no se eleva el consumo de recursos.        
+        </p>
+        <figure>
+          <img
+            class="code"
+            src="img/screenshots/brigdeWizard.png"
+            alt="main activity snippet"
+          />
+          <figcaption>
+            Fragmento de código obtenido del siguiente
+            <a
+              href="https://github.com/guardianproject/orbot/blob/master/app/src/main/java/org/torproject/android/ui/onboarding/BridgeWizardActivity.java"
+              target="_blank"
+            >
+              archivo
+            </a>
+          </figcaption>
+        </figure>        
+      </card>
+    </div>
   </div>
 </template>
 
